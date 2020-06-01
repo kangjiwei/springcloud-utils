@@ -1,0 +1,20 @@
+server:
+    port: 10113
+    ribbon:
+      eureka:
+        enable: true
+      ServerListRefreshInterval: 100
+spring:
+  application:
+    name: ribbonClient
+#================================================================
+#=================  Eureke ======================================
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://127.0.0.1:10111/eureka/
+      healthcheck:
+        enabled: true
+    instance:
+      lease-renewal-interval-in-seconds: 1
+      lease-expiration-duration-in-seconds: 2

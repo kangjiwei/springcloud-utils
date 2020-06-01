@@ -1,0 +1,790 @@
+2020-05-11 00:06:06.943 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:06:07.048 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:20:12.299 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,334] - Content-Disposition:form-data;name="name"publicclassAuthGlobalFilterimplementsGlobalFilter,Ordered----------------------------671663331447406990313178Content-Disposition:form-data;name="sex"publicclassAuthGlobalFilterimplementsGlobalFilter,Ordered----------------------------671663331447406990313178Content-Disposition:form-data;name="height"12345----------------------------671663331447406990313178--
+2020-05-11 00:20:12.305 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,336] - 第一步：Content-Disposition:form-data;name="name"publicclassAuthGlobalFilterimplementsGlobalFilter,Ordered----------------------------671663331447406990313178Content-Disposition:form-data;name="sex"publicclassAuthGlobalFilterimplementsGlobalFilter,Ordered----------------------------671663331447406990313178Content-Disposition:form-data;name="height"12345----------------------------671663331447406990313178--
+2020-05-11 00:21:27.734 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,334] - Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="height"12345----------------------------671663331447406990313178--
+2020-05-11 00:21:27.739 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,336] - 第一步：Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="height"12345----------------------------671663331447406990313178--
+2020-05-11 00:22:13.727 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,334] - Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="height"12345----------------------------671663331447406990313178--
+2020-05-11 00:22:13.733 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,336] - 第一步：Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------671663331447406990313178Content-Disposition: form-data; name="height"12345----------------------------671663331447406990313178--
+2020-05-11 00:22:13.736 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,349] - 最后一步:public class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 00:22:13.737 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,349] - 最后一步:public class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 00:22:13.738 [,] [main] INFO  c.g.u.f.HmacCheckFilter - [main,349] - 最后一步:12345
+2020-05-11 00:40:05.187 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:40:08.211 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:40:08.390 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:40:08.713 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:40:09.290 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:40:10.870 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:40:10.911 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:40:13.589 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:40:14.778 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:40:14.787 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:40:19.755 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 17.564 seconds (JVM running for 18.681)
+2020-05-11 00:40:25.651 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,76] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:40:25.944 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:40:26.095 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:41:27.159 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:41:29.678 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:41:29.806 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:41:30.075 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:41:30.589 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:41:32.050 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:41:32.096 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:41:34.750 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:41:35.981 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:41:35.991 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:41:41.154 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.652 seconds (JVM running for 17.851)
+2020-05-11 00:43:17.522 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,77] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:43:22.932 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:43:25.010 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:43:25.130 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:43:25.355 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:43:25.839 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:43:27.149 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:43:27.181 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:43:29.493 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:43:30.687 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:43:30.696 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:43:35.108 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.007 seconds (JVM running for 16.463)
+2020-05-11 00:44:26.378 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:44:28.530 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:44:28.690 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:44:28.978 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:44:29.410 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:44:30.714 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:44:30.767 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:44:33.123 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:44:34.119 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:44:34.128 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:44:38.916 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.876 seconds (JVM running for 15.817)
+2020-05-11 00:44:44.618 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,77] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:44:44.987 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:44:45.162 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:45:10.291 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:45:14.471 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:45:14.640 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:45:14.640 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:45:15.010 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:45:15.862 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:45:17.126 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:45:17.262 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:45:17.574 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:45:18.217 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:45:18.583 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:45:18.621 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:45:19.672 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:45:19.708 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:45:21.313 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:45:22.148 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:45:24.121 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:45:24.160 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:45:24.908 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:45:24.920 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:45:30.990 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-05-11 00:45:31.024 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-05-11 00:45:32.201 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 22.062 seconds (JVM running for 23.271)
+2020-05-11 00:45:38.479 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,77] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:45:38.926 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:45:39.068 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:46:00.142 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:46:02.901 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:46:03.071 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:46:03.394 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:46:03.918 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:46:05.350 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:46:05.397 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:46:08.027 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:46:09.302 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:46:09.316 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:46:13.968 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.573 seconds (JVM running for 17.932)
+2020-05-11 00:46:59.166 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,77] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:47:07.199 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:47:09.663 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:47:09.787 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:47:10.037 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:47:10.476 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:47:11.813 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:47:11.860 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:47:14.259 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:47:15.278 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:47:15.287 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:47:19.920 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.176 seconds (JVM running for 16.172)
+2020-05-11 00:47:25.165 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 00:47:25.166 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,341] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:47:25.241 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:[Ljava.lang.String;@4059e9fb
+2020-05-11 00:47:25.241 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 00:47:25.577 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:47:25.742 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:47:46.601 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------495906451092202791444473
+2020-05-11 00:47:46.602 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,341] - ----------------------------495906451092202791444473Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------495906451092202791444473Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------495906451092202791444473Content-Disposition: form-data; name="height"12345----------------------------495906451092202791444473--
+2020-05-11 00:47:46.602 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:[Ljava.lang.String;@7d1b9102
+2020-05-11 00:47:46.602 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - ----------------------------495906451092202791444473
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------495906451092202791444473
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------495906451092202791444473
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------495906451092202791444473--
+
+2020-05-11 00:47:46.604 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:47:46.637 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:51:07.141 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 00:51:09.326 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 00:51:09.469 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 00:51:09.808 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 00:51:10.244 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 00:51:12.710 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 00:51:12.818 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 00:51:15.203 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 00:51:16.227 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:51:16.236 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 00:51:20.830 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.181 seconds (JVM running for 17.174)
+2020-05-11 00:51:24.970 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------858562216076325915896013
+2020-05-11 00:51:24.971 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,347] - ----------------------------858562216076325915896013Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------858562216076325915896013Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------858562216076325915896013Content-Disposition: form-data; name="height"12345----------------------------858562216076325915896013--
+2020-05-11 00:51:25.035 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:----------------------------858562216076325915896013Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------858562216076325915896013Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------858562216076325915896013Content-Disposition: form-data; name="height"12345----------------------------858562216076325915896013--
+2020-05-11 00:51:25.035 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - ----------------------------858562216076325915896013
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------858562216076325915896013
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------858562216076325915896013
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------858562216076325915896013--
+
+2020-05-11 00:51:25.329 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 00:51:25.469 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:00:56.333 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:00:58.515 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:00:58.662 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:00:58.890 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:00:59.364 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:01:00.750 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:01:00.795 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:01:03.479 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:01:04.501 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:01:04.509 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:01:09.125 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.45 seconds (JVM running for 16.446)
+2020-05-11 01:01:15.324 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------342928022241657601970290
+2020-05-11 01:01:15.325 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,346] - ----------------------------342928022241657601970290Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------342928022241657601970290Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------342928022241657601970290Content-Disposition: form-data; name="height"12345----------------------------342928022241657601970290--
+2020-05-11 01:04:35.069 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:04:37.115 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:04:37.234 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:04:37.449 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:04:37.865 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:04:39.430 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:04:39.467 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:04:41.880 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:04:42.856 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:04:42.867 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:04:47.393 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.678 seconds (JVM running for 15.675)
+2020-05-11 01:04:52.764 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------990510063963030967910534
+2020-05-11 01:04:52.765 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------990510063963030967910534Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------990510063963030967910534Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------990510063963030967910534Content-Disposition: form-data; name="height"12345----------------------------990510063963030967910534--
+2020-05-11 01:05:26.297 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:05:28.717 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:05:28.862 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:05:29.098 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:05:29.578 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:05:31.075 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:05:31.126 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:05:34.060 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:05:35.284 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:05:35.296 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:05:40.432 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.914 seconds (JVM running for 18.445)
+2020-05-11 01:05:46.980 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------172302308890841781814300
+2020-05-11 01:06:15.326 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------172302308890841781814300Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------172302308890841781814300Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------172302308890841781814300Content-Disposition: form-data; name="height"12345----------------------------172302308890841781814300--
+2020-05-11 01:07:14.886 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:07:16.926 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:07:17.028 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:07:17.226 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:07:17.685 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:07:19.205 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:07:19.247 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:07:22.007 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:07:23.070 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:07:23.080 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:07:27.591 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.006 seconds (JVM running for 16.047)
+2020-05-11 01:07:32.436 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------439465188266988443513695
+2020-05-11 01:07:32.437 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------439465188266988443513695Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------439465188266988443513695Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------439465188266988443513695Content-Disposition: form-data; name="height"12345----------------------------439465188266988443513695--
+2020-05-11 01:08:37.539 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:08:39.828 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:08:39.951 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:08:40.160 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:08:40.658 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:08:42.975 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:08:43.011 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:08:45.336 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:08:46.412 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:08:46.424 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:08:51.067 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.081 seconds (JVM running for 17.094)
+2020-05-11 01:09:08.573 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------911888161222780057362489
+2020-05-11 01:09:08.574 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------911888161222780057362489Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------911888161222780057362489Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------911888161222780057362489Content-Disposition: form-data; name="height"12345----------------------------911888161222780057362489--
+2020-05-11 01:09:08.628 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:
+2020-05-11 01:09:08.629 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - ----------------------------911888161222780057362489
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------911888161222780057362489
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------911888161222780057362489
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------911888161222780057362489--
+
+2020-05-11 01:09:09.019 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:09:09.246 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:09:51.552 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:09:53.784 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:09:53.934 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:09:54.186 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:09:54.679 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:09:56.086 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:09:56.116 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:09:58.645 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:09:59.904 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:09:59.920 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:10:04.686 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.812 seconds (JVM running for 17.304)
+2020-05-11 01:10:10.929 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------836147918133924678861038
+2020-05-11 01:10:21.630 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------836147918133924678861038Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------836147918133924678861038Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------836147918133924678861038Content-Disposition: form-data; name="height"12345----------------------------836147918133924678861038--
+2020-05-11 01:10:57.080 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:
+2020-05-11 01:10:57.080 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - ----------------------------836147918133924678861038
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------836147918133924678861038
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------836147918133924678861038
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------836147918133924678861038--
+
+2020-05-11 01:11:05.040 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:11:07.300 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:11:07.422 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:11:07.680 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:11:08.152 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:11:09.730 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:11:09.764 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:11:12.242 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:11:13.502 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:11:13.514 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:11:18.293 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.921 seconds (JVM running for 17.041)
+2020-05-11 01:11:25.200 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------574613705807800730449755
+2020-05-11 01:11:31.442 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------574613705807800730449755Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------574613705807800730449755Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------574613705807800730449755Content-Disposition: form-data; name="height"12345----------------------------574613705807800730449755--
+2020-05-11 01:13:13.047 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:13:15.041 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:13:15.190 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:13:15.400 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:13:15.817 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:13:18.675 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:13:18.708 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:13:21.133 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:13:22.133 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:13:22.144 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:13:26.853 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.337 seconds (JVM running for 17.398)
+2020-05-11 01:13:34.202 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------276583173562984835762983
+2020-05-11 01:13:34.203 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------276583173562984835762983Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------276583173562984835762983Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------276583173562984835762983Content-Disposition: form-data; name="height"12345----------------------------276583173562984835762983--
+2020-05-11 01:13:34.204 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：null
+2020-05-11 01:13:34.205 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：null
+2020-05-11 01:13:34.205 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：null
+2020-05-11 01:13:49.350 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:13:51.567 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:13:51.724 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:13:51.943 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:13:52.379 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:13:53.771 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:13:53.812 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:13:56.354 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:13:57.706 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:13:57.720 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:14:03.141 [,] [reactor-http-nio-2] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------262916984951602228250684
+2020-05-11 01:14:16.648 [,] [reactor-http-nio-2] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------262916984951602228250684Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------262916984951602228250684Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------262916984951602228250684Content-Disposition: form-data; name="height"12345----------------------------262916984951602228250684--
+2020-05-11 01:15:13.457 [,] [reactor-http-nio-2] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：null
+2020-05-11 01:15:13.458 [,] [reactor-http-nio-2] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：null
+2020-05-11 01:15:13.458 [,] [reactor-http-nio-2] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：null
+2020-05-11 01:15:13.566 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 86.725 seconds (JVM running for 88.064)
+2020-05-11 01:15:21.742 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:15:23.769 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:15:23.903 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:15:24.130 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:15:24.583 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:15:25.924 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:15:25.968 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:15:28.356 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:15:29.470 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:15:29.481 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:15:34.436 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.134 seconds (JVM running for 16.149)
+2020-05-11 01:15:39.420 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------144905595140051007573197
+2020-05-11 01:15:39.420 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - ----------------------------144905595140051007573197Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------144905595140051007573197Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------144905595140051007573197Content-Disposition: form-data; name="height"12345----------------------------144905595140051007573197--
+2020-05-11 01:15:39.421 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：public class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 01:15:39.423 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：public class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 01:15:39.424 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$parseBodyInfo$7,352] - 是空的吗：12345
+2020-05-11 01:15:39.482 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:12345public class AuthGlobalFilter implements GlobalFilter, Orderedpublic class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 01:15:39.482 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - ----------------------------144905595140051007573197
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------144905595140051007573197
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------144905595140051007573197
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------144905595140051007573197--
+
+2020-05-11 01:15:39.781 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:15:39.920 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:16:58.261 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 01:16:58.261 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:16:58.262 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:
+2020-05-11 01:16:58.262 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:16:58.264 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:16:58.278 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:18:33.957 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 01:18:33.958 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:18:33.959 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:
+2020-05-11 01:18:33.959 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:18:33.960 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:18:33.973 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:18:56.256 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:18:58.502 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:18:58.636 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:18:58.887 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:18:59.360 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:19:00.719 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:19:00.758 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:19:03.235 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:19:04.485 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:19:04.495 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:19:09.086 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.575 seconds (JVM running for 16.745)
+2020-05-11 01:19:18.552 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 01:20:33.349 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,345] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:20:33.421 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 排序之后的字符串:
+2020-05-11 01:20:33.421 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,78] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:20:41.345 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:20:43.517 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:20:43.620 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:20:43.833 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:20:44.245 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:20:46.547 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:20:46.582 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:20:48.919 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:20:49.997 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:20:50.007 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:20:54.270 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.475 seconds (JVM running for 16.398)
+2020-05-11 01:20:59.128 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:20:59.129 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 01:20:59.129 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,346] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:20:59.175 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,74] - 排序之后的字符串:
+2020-05-11 01:20:59.176 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,79] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:20:59.415 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:20:59.520 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:23:20.693 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 01:23:22.726 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 01:23:22.854 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 01:23:23.064 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 01:23:23.517 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 01:23:24.791 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 01:23:24.830 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 01:23:27.129 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 01:23:28.091 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:23:28.099 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 01:23:32.584 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.177 seconds (JVM running for 15.152)
+2020-05-11 01:23:36.898 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:23:36.898 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 01:23:36.899 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,346] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:23:36.957 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,74] - 排序之后的字符串:
+2020-05-11 01:23:36.957 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,79] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 01:23:37.244 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 01:23:37.354 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:08:52.713 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,70] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:08:52.714 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:08:52.715 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,346] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:08:52.715 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,74] - 排序之后的字符串:
+2020-05-11 09:08:52.715 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,79] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:08:52.718 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:08:52.736 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:13:25.421 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 09:13:27.968 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 09:13:28.108 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 09:13:28.476 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 09:13:29.253 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 09:13:32.298 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 09:13:32.429 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 09:13:36.345 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 09:13:37.442 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:13:37.449 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:13:41.984 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 19.635 seconds (JVM running for 20.832)
+2020-05-11 09:13:46.633 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:13:46.634 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:13:46.634 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:13:46.707 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,82] - urlEncoded:
+2020-05-11 09:13:46.710 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,84] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:13:47.126 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:13:47.339 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:14:51.241 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 09:14:53.522 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 09:14:53.626 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 09:14:53.877 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 09:14:54.445 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 09:14:56.060 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 09:14:56.124 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 09:14:59.157 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 09:15:00.163 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:15:00.172 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:15:05.158 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 17.038 seconds (JVM running for 18.034)
+2020-05-11 09:15:09.532 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:15:09.535 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:15:09.535 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:15:09.646 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,82] - 还是汉字吧，urlEncoded :
+2020-05-11 09:15:09.646 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,84] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:15:10.029 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:15:10.227 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:16:06.668 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 09:16:09.015 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 09:16:09.156 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 09:16:09.403 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 09:16:10.397 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 09:16:12.248 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 09:16:12.288 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 09:16:15.289 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 09:16:16.606 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:16:16.620 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:16:21.870 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.426 seconds (JVM running for 19.589)
+2020-05-11 09:16:27.023 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:16:27.023 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:16:30.885 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:16:58.102 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,82] - 还是汉字吧，urlEncoded :
+2020-05-11 09:16:58.105 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,84] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:17:06.115 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 09:17:08.131 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 09:17:08.253 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 09:17:08.503 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 09:17:08.943 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 09:17:10.409 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 09:17:10.471 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 09:17:13.142 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 09:17:14.176 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:17:14.185 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:17:18.969 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 15.502 seconds (JVM running for 16.494)
+2020-05-11 09:17:23.708 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:17:23.708 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:17:23.710 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:17:23.755 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,82] - 还是汉字吧，urlEncoded :name%3Dpublic%2520class%2520AuthGlobalFilter%2520implements%2520GlobalFilter%252C%2520Ordered%26sex%3Dpublic%2520class%2520AuthGlobalFilter%2520implements%2520GlobalFilter%252C%2520Ordered
+2020-05-11 09:17:23.755 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,84] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:17:24.026 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:17:24.177 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:19:11.378 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 09:19:14.550 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 09:19:14.755 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 09:19:15.109 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 09:19:15.932 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 09:19:18.266 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 09:19:18.327 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 09:19:21.700 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 09:19:23.318 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:19:23.333 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:19:30.892 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 23.881 seconds (JVM running for 25.423)
+2020-05-11 09:25:57.175 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,71] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:25:57.177 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:25:57.177 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:25:57.265 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,82] - 还是汉字吧，urlEncoded :name%3Dpublic%2520class%2520AuthGlobalFilter%2520implements%2520GlobalFilter%252C%2520Ordered%26sex%3Dpublic%2520class%2520AuthGlobalFilter%2520implements%2520GlobalFilter%252C%2520Ordered
+2020-05-11 09:25:57.265 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,84] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:25:57.608 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:25:57.884 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:32:39.096 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 09:32:41.579 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 09:32:41.738 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 09:32:46.062 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 09:32:46.863 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 09:32:49.413 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 09:32:49.513 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 09:32:52.417 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 09:32:53.522 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:32:53.531 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 09:32:58.114 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 21.919 seconds (JVM running for 22.943)
+2020-05-11 09:33:02.920 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:33:02.920 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 09:33:02.921 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,353] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:33:02.982 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,84] - 还是汉字吧，urlEncoded :name=public class AuthGlobalFilter implements GlobalFilter, Ordered&sex=public class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 09:33:02.982 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,86] - name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 09:33:03.320 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 09:33:03.452 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:17:40.201 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 10:17:42.661 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 10:17:42.844 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 10:17:43.218 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 10:17:43.778 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 10:17:45.887 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 10:17:45.947 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 10:17:49.377 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 10:17:50.664 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 10:17:50.676 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 10:17:55.012 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 17.371 seconds (JVM running for 18.555)
+2020-05-11 10:18:11.471 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 10:18:11.473 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 10:18:11.585 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,83] - 还是汉字吧，urlEncoded :public class AuthGlobalFilter implements GlobalFilter, Orderedpublic class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 10:18:11.975 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:18:12.234 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:18:33.245 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：----------------------------690419582015735503018068
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------690419582015735503018068
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------690419582015735503018068
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------690419582015735503018068--
+
+2020-05-11 10:18:33.247 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------690419582015735503018068
+2020-05-11 10:18:33.247 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - ----------------------------690419582015735503018068Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------690419582015735503018068Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------690419582015735503018068Content-Disposition: form-data; name="height"12345----------------------------690419582015735503018068--
+2020-05-11 10:18:33.247 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,76] - 排序之后的字符串:12345public class AuthGlobalFilter implements GlobalFilter, Orderedpublic class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 10:18:33.249 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:18:33.309 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:20:47.560 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：----------------------------779565127601222303145764
+Content-Disposition: form-data; name="name"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------779565127601222303145764
+Content-Disposition: form-data; name="sex"
+
+public class AuthGlobalFilter implements GlobalFilter, Ordered
+----------------------------779565127601222303145764
+Content-Disposition: form-data; name="height"
+
+12345
+----------------------------779565127601222303145764--
+
+2020-05-11 10:20:47.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:multipart/form-data; boundary=--------------------------779565127601222303145764
+2020-05-11 10:20:47.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyInfo,351] - ----------------------------779565127601222303145764Content-Disposition: form-data; name="name"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------779565127601222303145764Content-Disposition: form-data; name="sex"public class AuthGlobalFilter implements GlobalFilter, Ordered----------------------------779565127601222303145764Content-Disposition: form-data; name="height"12345----------------------------779565127601222303145764--
+2020-05-11 10:20:47.562 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,76] - 排序之后的字符串:12345public class AuthGlobalFilter implements GlobalFilter, Orderedpublic class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 10:20:47.563 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:20:47.588 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:27:25.117 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：{
+	"name":"亢寄伟",
+	"sex":"男的"
+}
+2020-05-11 10:27:25.118 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:application/json
+2020-05-11 10:27:25.118 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyJson,377] - {"name":"亢寄伟","sex":"男的"}
+2020-05-11 10:27:25.118 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,79] - json去空格:{}
+2020-05-11 10:27:25.119 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:27:25.133 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:27:50.939 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：{
+	"name":"亢寄   伟",
+	"sex":"男的"
+}
+2020-05-11 10:27:50.940 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:application/json
+2020-05-11 10:27:50.941 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyJson,377] - {"name":"亢寄伟","sex":"男的"}
+2020-05-11 10:27:50.941 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,79] - json去空格:{}
+2020-05-11 10:27:50.943 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:27:50.958 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:44:10.492 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 10:44:13.709 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 10:44:13.924 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 10:44:14.394 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 10:44:15.333 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 10:44:17.730 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 10:44:17.872 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 10:44:21.633 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 10:44:22.790 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 10:44:22.798 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 10:44:27.435 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 20.199 seconds (JVM running for 21.358)
+2020-05-11 10:44:34.401 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,72] - 得到的路径：{
+	"name":"亢寄   伟",
+	"sex":"男的"
+}
+2020-05-11 10:44:34.402 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,73] - 靠到底是什么类型:application/json
+2020-05-11 10:44:34.402 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [parseBodyJson,377] - {"name":"亢寄伟","sex":"男的"}
+2020-05-11 10:44:34.402 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$1,79] - json去空格:{"name":"亢寄伟","sex":"男的"}
+2020-05-11 10:44:34.755 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 10:44:34.874 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - POST
+2020-05-11 11:46:09.656 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:46:09.679 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:50:15.219 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 11:50:17.047 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 11:50:17.151 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 11:50:17.321 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 11:50:17.723 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 11:50:18.967 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 11:50:18.991 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 11:50:21.487 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 11:50:22.388 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:50:22.398 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:50:26.375 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.305 seconds (JVM running for 14.113)
+2020-05-11 11:50:30.475 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$0,64] -  白雪 kang
+2020-05-11 11:50:30.475 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$0,64] -  白雪 congcong
+2020-05-11 11:50:30.757 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:50:30.885 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:50:39.293 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$0,64] -  白雪 kang
+2020-05-11 11:50:39.293 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$0,64] -  白雪 congcong
+2020-05-11 11:50:39.294 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:50:39.308 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:50:57.613 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:50:57.625 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:51:06.872 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:51:06.905 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:52:55.681 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 11:52:57.612 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 11:52:57.695 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 11:52:57.857 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 11:52:58.247 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 11:52:59.443 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 11:52:59.476 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 11:53:01.789 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 11:53:02.670 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:53:02.679 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:53:06.879 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.303 seconds (JVM running for 14.109)
+2020-05-11 11:53:15.901 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:53:16.015 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:53:24.963 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:53:24.973 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:53:39.152 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:53:39.163 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:54:12.471 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:54:12.479 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:55:12.186 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 11:55:13.995 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 11:55:14.092 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 11:55:14.272 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 11:55:14.682 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 11:55:15.944 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 11:55:15.981 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 11:55:18.156 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 11:55:19.084 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:55:19.095 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:55:23.209 [,] [reactor-http-nio-2] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:application/json
+2020-05-11 11:55:23.472 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:55:23.629 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:55:24.110 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.031 seconds (JVM running for 14.828)
+2020-05-11 11:59:39.149 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 11:59:40.959 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 11:59:41.072 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 11:59:41.253 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 11:59:41.687 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 11:59:42.923 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 11:59:42.966 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 11:59:45.004 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 11:59:45.893 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:59:45.900 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 11:59:49.680 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 12.652 seconds (JVM running for 13.423)
+2020-05-11 11:59:54.010 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:application/json
+2020-05-11 11:59:54.237 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 11:59:54.348 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 12:00:17.536 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 12:00:19.262 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 12:00:19.380 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 12:00:19.568 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 12:00:19.992 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 12:00:21.216 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 12:00:21.266 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 12:00:23.667 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 12:00:24.613 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 12:00:24.624 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 12:00:28.643 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.205 seconds (JVM running for 13.99)
+2020-05-11 12:00:32.588 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:GET
+2020-05-11 12:00:32.827 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 12:00:32.980 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 14:05:07.021 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:05:09.097 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 14:05:09.212 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 14:05:09.438 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 14:05:09.840 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 14:05:11.048 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 14:05:11.084 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 14:05:13.445 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 14:05:14.552 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:05:14.562 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:05:18.718 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.927 seconds (JVM running for 14.954)
+2020-05-11 14:05:27.760 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:GET
+2020-05-11 14:06:32.873 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:06:34.518 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 14:06:34.609 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 14:06:34.788 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 14:06:35.156 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 14:06:36.395 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 14:06:36.430 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 14:06:38.693 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 14:06:39.645 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:06:39.652 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:06:44.014 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.349 seconds (JVM running for 14.429)
+2020-05-11 14:06:44.616 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:GET
+2020-05-11 14:06:44.792 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 14:06:44.893 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 14:06:55.527 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:06:57.478 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 14:06:57.593 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 14:06:57.791 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 14:06:58.186 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 14:06:59.476 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 14:06:59.523 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 14:07:01.996 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 14:07:03.063 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:07:03.072 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:07:07.440 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.263 seconds (JVM running for 15.433)
+2020-05-11 14:07:15.092 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:GET
+2020-05-11 14:07:57.002 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:07:58.849 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 14:07:58.939 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 14:07:59.113 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 14:07:59.472 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 14:08:00.750 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 14:08:00.770 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 14:08:03.094 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 14:08:03.951 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:08:03.959 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:08:07.937 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 12.939 seconds (JVM running for 13.929)
+2020-05-11 14:09:01.028 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:09:06.047 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:09:07.928 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 14:09:08.060 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 14:09:08.332 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 14:09:08.798 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 14:09:10.153 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 14:09:10.196 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 14:09:12.433 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 14:09:13.415 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:09:13.423 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:09:17.611 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.776 seconds (JVM running for 14.828)
+2020-05-11 14:09:23.286 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:GET
+2020-05-11 14:09:23.287 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,116] - 长度：0
+2020-05-11 14:09:23.557 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 14:09:23.676 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 14:10:27.756 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-11 14:10:29.577 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-11 14:10:29.660 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-11 14:10:29.818 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-11 14:10:30.188 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-11 14:10:31.351 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-11 14:10:31.384 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-11 14:10:33.669 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-11 14:10:34.565 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:10:34.575 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 14:10:38.486 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.084 seconds (JVM running for 13.865)
+2020-05-11 14:10:50.229 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [filter,72] - Request Method:GET
+2020-05-11 14:10:50.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$2,80] - 得到的路径：name=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered&sex=public%20class%20AuthGlobalFilter%20implements%20GlobalFilter%2C%20Ordered
+2020-05-11 14:10:50.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$2,81] - 靠到底是什么类型:application/x-www-form-urlencoded
+2020-05-11 14:10:50.366 [,] [reactor-http-nio-3] INFO  c.g.u.f.HmacCheckFilter - [lambda$filter$2,91] - 还是汉字吧，urlEncoded :public class AuthGlobalFilter implements GlobalFilter, Orderedpublic class AuthGlobalFilter implements GlobalFilter, Ordered
+2020-05-11 14:10:50.556 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-05-11 14:10:50.652 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET

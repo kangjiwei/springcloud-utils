@@ -1,0 +1,552 @@
+2020-05-19 15:13:36.265 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,90] - GET
+2020-05-19 15:13:36.448 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,45] - 网关--降级--Get:[http://127.0.0.1:10000/hello]
+2020-05-19 15:13:55.628 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:14:00.692 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:14:00.965 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:14:01.429 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:14:02.468 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:14:06.001 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:14:06.145 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:14:09.696 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:14:11.377 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:14:11.404 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:14:22.361 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 31.598 seconds (JVM running for 33.776)
+2020-05-19 15:25:28.663 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:25:34.177 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:25:34.506 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:25:34.899 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:25:35.889 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:25:37.975 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:25:38.015 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:25:41.476 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:25:43.198 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:25:43.216 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:25:52.926 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 29.289 seconds (JVM running for 30.807)
+2020-05-19 15:26:48.263 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:26:51.237 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:26:51.393 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:26:51.652 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:26:52.566 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:26:55.120 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:26:55.194 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:26:58.567 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:26:59.775 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:26:59.786 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:27:07.254 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 23.209 seconds (JVM running for 24.302)
+2020-05-19 15:27:39.834 [,] [boundedElastic-1] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+2020-05-19 15:27:39.838 [,] [boundedElastic-1] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+2020-05-19 15:29:15.837 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:29:18.636 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:29:18.778 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:29:18.992 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:29:19.672 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:29:21.454 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:29:21.513 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:29:24.942 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:29:26.148 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:29:26.160 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:29:34.192 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 22.695 seconds (JVM running for 24.009)
+2020-05-19 15:35:49.111 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:35:51.712 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:35:51.845 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:35:52.067 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:35:52.727 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:35:55.229 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:35:55.293 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:35:58.100 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:35:59.311 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:35:59.322 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:36:06.904 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 21.167 seconds (JVM running for 22.253)
+2020-05-19 15:36:11.724 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 15:36:11.726 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 15:36:11.727 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 15:36:13.902 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,45] - 网关--降级--Get:[http://127.0.0.1:10000/hello]
+2020-05-19 15:36:13.986 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 15:36:13.987 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:500 INTERNAL_SERVER_ERROR
+2020-05-19 15:36:13.988 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 15:38:55.226 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:38:58.006 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:38:58.162 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:38:58.414 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:38:59.159 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:39:01.462 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:39:01.525 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:39:05.009 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:39:06.257 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:39:06.269 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:39:13.787 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 22.172 seconds (JVM running for 23.303)
+2020-05-19 15:39:20.474 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 15:39:20.477 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 15:39:20.478 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 15:39:22.689 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 15:39:22.690 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello]
+2020-05-19 15:39:22.753 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 15:39:22.754 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:500 INTERNAL_SERVER_ERROR
+2020-05-19 15:39:22.754 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 15:42:43.209 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:42:46.433 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:42:46.557 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:42:46.777 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:42:47.791 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:42:51.208 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:42:51.276 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:42:54.444 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:42:55.580 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:42:55.589 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:43:03.593 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 25.022 seconds (JVM running for 26.151)
+2020-05-19 15:43:09.362 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 15:43:09.365 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 15:43:09.366 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 15:45:28.305 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:45:31.156 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:45:31.300 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:45:31.518 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:45:32.784 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:45:35.441 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:45:35.502 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:45:38.966 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:45:40.341 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:45:40.352 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:45:50.848 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 26.329 seconds (JVM running for 27.438)
+2020-05-19 15:59:17.214 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 15:59:19.866 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 15:59:20.015 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 15:59:20.307 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 15:59:21.010 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 15:59:22.640 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 15:59:22.716 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 15:59:25.732 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 15:59:27.001 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:59:27.013 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 15:59:36.739 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 23.401 seconds (JVM running for 24.447)
+2020-05-19 15:59:42.107 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 15:59:42.111 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 15:59:42.113 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:00:43.704 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:00:47.836 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:00:48.017 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:00:48.353 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:00:49.305 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:00:51.449 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:00:51.521 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:00:54.920 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:00:56.520 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:00:56.541 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:01:03.118 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-05-19 16:01:03.141 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-05-19 16:01:39.888 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:01:42.575 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:01:42.714 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:01:42.926 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:01:43.825 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:01:46.511 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:01:46.557 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:01:49.826 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:01:51.061 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:01:51.074 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:01:56.582 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-05-19 16:01:56.600 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-05-19 16:10:45.722 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:10:50.227 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:10:50.441 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:10:50.905 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:10:51.886 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:10:53.918 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:10:53.982 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:10:57.624 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:10:59.610 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:10:59.634 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:11:06.377 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-05-19 16:11:06.389 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-05-19 16:11:52.593 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:11:56.718 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:11:56.931 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:11:57.328 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:11:58.265 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:12:00.502 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:12:00.565 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:12:04.816 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:12:06.085 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:12:06.096 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:12:13.937 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 26.6 seconds (JVM running for 27.862)
+2020-05-19 16:12:30.854 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:12:31.298 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:12:31.330 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:12:31.331 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:12:31.332 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:13:12.869 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:13:12.871 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:13:12.872 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:13:12.873 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:13:12.874 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:14:10.809 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:14:13.495 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:14:13.646 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:14:13.887 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:14:14.553 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:14:17.347 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:14:17.409 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:14:20.557 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:14:22.001 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:14:22.013 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:14:29.095 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 23.09 seconds (JVM running for 24.159)
+2020-05-19 16:14:33.110 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:14:33.487 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:14:33.499 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:14:33.500 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:14:33.501 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:14:35.655 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:14:35.659 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:14:35.798 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:14:35.798 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:14:35.799 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:14:35.800 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:15:23.273 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:15:26.750 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:15:26.915 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:15:27.196 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:15:28.247 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:15:31.654 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:15:31.719 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:15:35.477 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:15:36.900 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:15:36.911 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:15:44.481 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 25.667 seconds (JVM running for 27.032)
+2020-05-19 16:15:53.312 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:15:53.657 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:15:53.674 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:15:53.676 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:16:26.279 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:16:26.302 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:30:35.572 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:30:35.914 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:30:35.915 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:30:35.916 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:30:35.917 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:30:46.774 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:30:50.392 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:30:50.586 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:30:50.981 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:30:52.035 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:30:55.821 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:30:55.996 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:31:00.529 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:31:01.924 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:31:01.935 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:31:10.587 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 27.511 seconds (JVM running for 28.751)
+2020-05-19 16:31:15.225 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:31:15.663 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:31:15.686 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:31:15.687 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:31:15.688 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:31:17.924 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:31:17.925 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:31:17.994 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:31:17.995 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:31:17.996 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:31:17.998 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:32:25.485 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:32:28.681 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:32:28.957 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:32:29.230 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:32:30.017 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:32:32.162 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:32:32.229 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:32:35.355 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:32:36.779 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:32:36.787 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:32:45.851 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 24.704 seconds (JVM running for 26.015)
+2020-05-19 16:32:50.457 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:32:50.772 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:32:50.787 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:32:50.788 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:32:50.788 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:32:52.962 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:32:52.964 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:32:53.065 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:32:53.067 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:32:53.068 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:500 INTERNAL_SERVER_ERROR
+2020-05-19 16:32:53.069 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:34:11.121 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:34:14.133 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:34:14.272 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:34:14.536 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:34:15.325 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:34:17.726 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:34:17.788 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:34:21.199 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:34:22.884 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:34:22.895 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:34:32.745 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 25.499 seconds (JVM running for 26.811)
+2020-05-19 16:34:37.344 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:34:37.710 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:34:37.725 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:34:37.727 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:34:37.728 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:34:39.885 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:34:39.886 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:34:39.961 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:34:39.964 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:34:39.966 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:34:39.967 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:35:29.426 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:35:29.428 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:35:29.430 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello1
+2020-05-19 16:35:29.430 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:35:29.431 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:36:48.558 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:36:51.869 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:36:52.028 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:36:52.324 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:36:53.119 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:36:55.808 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:36:55.872 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:36:58.983 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:37:00.289 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:37:00.302 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:37:08.948 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 23.916 seconds (JVM running for 25.03)
+2020-05-19 16:37:20.740 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:37:21.161 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:37:21.184 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:37:21.186 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:37:21.187 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:37:23.444 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:37:23.448 [,] [reactor-http-nio-3] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:37:23.575 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:37:23.577 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:37:23.577 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:37:23.579 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:37:53.786 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:37:53.788 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:200 OK
+2020-05-19 16:37:53.789 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:37:53.789 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:37:53.789 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:37:54.090 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,23] - Response 20:404 NOT_FOUND
+2020-05-19 16:37:54.091 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:37:54.091 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-19 16:37:54.092 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:37:54.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,58] -  让人想哭:Response Info [ Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:37:54 GMT"];responseResult={"timestamp":"2020-05-19T08:37:53.991+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-19 16:44:08.481 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:44:11.171 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:44:11.318 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:44:11.603 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:44:12.297 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:44:13.943 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:44:14.094 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:44:17.163 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:44:18.359 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:44:18.371 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:44:25.374 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 20.017 seconds (JVM running for 20.98)
+2020-05-19 16:44:34.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:44:34.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:c8b28b3e-1
+2020-05-19 16:44:34.430 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:44:34.432 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-1
+2020-05-19 16:44:34.449 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:44:34.450 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:44:34.450 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:44:35.169 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-19 16:44:35.170 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-1
+2020-05-19 16:44:35.171 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:44:35.172 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-19 16:44:35.173 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:44:35.180 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,59] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:44:35 GMT"];responseResult={"timestamp":"2020-05-19T08:44:35.032+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-19 16:45:25.915 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:45:25.916 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:c8b28b3e-2
+2020-05-19 16:45:25.918 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:45:25.920 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-2
+2020-05-19 16:45:25.921 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:45:25.922 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:45:25.924 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:45:25.961 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-19 16:45:25.962 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-2
+2020-05-19 16:45:25.962 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:45:25.962 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-19 16:45:25.963 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:45:25.964 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,59] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:44:35 GMT"];responseResult={"timestamp":"2020-05-19T08:44:35.032+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:45:25 GMT"];responseResult={"timestamp":"2020-05-19T08:45:25.957+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-19 16:45:26.709 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:45:26.710 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:c8b28b3e-3
+2020-05-19 16:45:26.713 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:45:26.713 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-3
+2020-05-19 16:45:26.714 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:45:26.715 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:45:26.716 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:45:26.736 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-19 16:45:26.737 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-3
+2020-05-19 16:45:26.738 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:45:26.739 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-19 16:45:26.739 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:45:26.741 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,59] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:44:35 GMT"];responseResult={"timestamp":"2020-05-19T08:44:35.032+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:45:25 GMT"];responseResult={"timestamp":"2020-05-19T08:45:25.957+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:45:25 GMT"];responseResult={"timestamp":"2020-05-19T08:45:26.732+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-19 16:48:19.618 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:48:19.619 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:c8b28b3e-4
+2020-05-19 16:48:19.622 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:48:19.624 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-4
+2020-05-19 16:48:19.626 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:48:19.629 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:48:19.629 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:48:22.685 [,] [HystrixTimer-5] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:48:22.686 [,] [HystrixTimer-5] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:48:22.711 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:48:22.712 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:c8b28b3e-4
+2020-05-19 16:48:22.713 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:48:22.714 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:48:22.715 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:53:39.735 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:53:42.755 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:53:42.904 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:53:43.301 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:53:43.924 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:53:46.443 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:53:46.494 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:53:49.614 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:53:50.885 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:53:50.896 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:53:57.928 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 21.647 seconds (JVM running for 23.278)
+2020-05-19 16:54:02.378 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:54:02.379 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:ab629194-1
+2020-05-19 16:54:02.728 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:54:02.729 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:ab629194-1
+2020-05-19 16:54:02.739 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:54:02.740 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:54:13.587 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:54:13.635 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:54:13.636 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:54:13.763 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:54:13.765 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:ab629194-1
+2020-05-19 16:54:13.766 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:54:13.768 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:54:13.769 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:54:18.838 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:54:21.104 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:54:21.232 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:54:21.425 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:54:22.003 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:54:23.655 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:54:23.678 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:54:26.516 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:54:27.656 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:54:27.666 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:54:33.989 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.062 seconds (JVM running for 19.278)
+2020-05-19 16:56:51.279 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:56:51.280 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:a35a4474-1
+2020-05-19 16:56:51.469 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:56:51.470 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:a35a4474-1
+2020-05-19 16:56:51.480 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:56:51.481 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:56:51.481 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:56:54.515 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:56:54.515 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:56:54.549 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:56:54.550 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:a35a4474-1
+2020-05-19 16:56:54.551 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:56:54.552 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:56:54.552 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:57:21.837 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 16:57:24.556 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 16:57:24.739 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 16:57:24.996 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 16:57:25.567 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 16:57:27.328 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 16:57:27.350 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 16:57:31.113 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 16:57:32.169 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:57:32.178 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 16:57:38.471 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 19.727 seconds (JVM running for 20.64)
+2020-05-19 16:57:42.884 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:57:42.884 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:9ae9603c-1
+2020-05-19 16:57:43.146 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:57:43.146 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:9ae9603c-1
+2020-05-19 16:57:43.159 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:57:43.159 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:57:43.160 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:57:46.137 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 16:57:46.138 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 16:57:46.192 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:57:46.193 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:9ae9603c-1
+2020-05-19 16:57:46.193 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:57:46.194 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:57:46.194 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:58:18.197 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 16:58:18.198 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:9ae9603c-2
+2020-05-19 16:58:18.198 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 16:58:18.199 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:9ae9603c-2
+2020-05-19 16:58:18.200 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:58:18.200 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 16:58:18.201 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:58:18.434 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-19 16:58:18.435 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:9ae9603c-2
+2020-05-19 16:58:18.435 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 16:58:18.436 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-19 16:58:18.436 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 16:58:18.441 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,59] -  让人想哭:Response Info [ Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 08:58:18 GMT"];responseResult={"timestamp":"2020-05-19T08:58:18.367+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-19 17:01:22.315 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 17:01:25.282 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 17:01:25.421 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 17:01:25.655 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 17:01:26.330 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 17:01:28.209 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 17:01:28.262 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 17:01:31.415 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 17:01:32.735 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:01:32.748 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:01:39.877 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 20.872 seconds (JVM running for 21.946)
+2020-05-19 17:01:50.324 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 17:01:50.326 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:f4165412-1
+2020-05-19 17:01:50.602 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 17:01:50.603 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:f4165412-1
+2020-05-19 17:01:50.631 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 17:01:50.632 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 17:01:56.812 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 17:01:56.846 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-19 17:01:56.847 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$2,49] - 网关--降级--Get:[http://127.0.0.1:10000/hello?name=1&sex=2]
+2020-05-19 17:02:18.798 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 17:02:18.799 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:f4165412-1
+2020-05-19 17:02:18.800 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 17:02:18.801 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 17:02:18.801 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 17:02:23.506 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 17:02:25.715 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 17:02:25.834 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 17:02:26.042 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 17:02:26.559 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 17:02:30.118 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 17:02:30.166 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 17:02:33.669 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 17:02:34.674 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:02:34.684 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:02:40.770 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 20.179 seconds (JVM running for 21.163)
+2020-05-19 17:02:44.751 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-19 17:02:44.752 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,40] - 网关--log-RequestId:a59d2f93-1
+2020-05-19 17:02:44.973 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-19 17:02:44.974 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:a59d2f93-1
+2020-05-19 17:02:44.982 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 17:02:44.983 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-19 17:02:44.983 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 17:02:45.303 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-19 17:02:45.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:a59d2f93-1
+2020-05-19 17:02:45.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-19 17:02:45.305 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-19 17:02:45.305 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-19 17:02:45.311 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,58] - Gateway-response-响应时间:null
+2020-05-19 17:02:45.312 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,60] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Tue, 19 May 2020 09:02:45 GMT"];responseResult={"timestamp":"2020-05-19T09:02:45.211+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-19 17:04:23.502 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 17:04:25.822 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 17:04:25.936 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 17:04:26.112 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 17:04:26.655 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 17:04:28.055 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 17:04:28.106 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 17:04:30.713 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 17:04:31.912 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:04:31.925 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:04:37.841 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 17.153 seconds (JVM running for 18.008)
+2020-05-19 17:06:33.867 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-19 17:06:36.114 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-19 17:06:39.705 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-19 17:06:39.858 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-19 17:06:40.511 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-19 17:06:42.086 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-19 17:06:42.111 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-19 17:06:44.862 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-19 17:06:46.052 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:06:46.062 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-19 17:06:52.127 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 21.11 seconds (JVM running for 22.151)

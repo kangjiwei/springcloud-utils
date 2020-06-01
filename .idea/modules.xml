@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1011-zlrGateway.iml" filepath="$PROJECT_DIR$/1011-zlrGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-gateway/demo-gateway.iml" filepath="$PROJECT_DIR$/demo-gateway/demo-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurake-client/eurake-client.iml" filepath="$PROJECT_DIR$/eurake-client/eurake-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" filepath="$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1011/provider1011.iml" filepath="$PROJECT_DIR$/provider1011/provider1011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1012/provider1012.iml" filepath="$PROJECT_DIR$/provider1012/provider1012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1013/provider1013.iml" filepath="$PROJECT_DIR$/provider1013/provider1013.iml" />
+    </modules>
+  </component>
+</project>

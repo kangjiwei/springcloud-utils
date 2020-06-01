@@ -1,0 +1,665 @@
+2020-04-13 21:30:49.582 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:30:50.551 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:30:50.611 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:30:50.721 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:30:50.921 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:30:51.801 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:30:51.821 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:30:53.321 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:30:53.681 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:30:53.681 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:31:00.638 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.2 seconds (JVM running for 14.821)
+2020-04-13 21:31:50.780 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:31:50.784 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:31:50.810 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:31:50.850 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:32:04.562 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:32:04.562 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:32:04.572 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:32:06.901 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:33:19.622 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:33:20.661 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:33:20.717 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:33:20.811 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:33:21.011 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:33:21.821 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:33:21.841 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:33:23.600 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:33:28.756 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:33:29.732 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:33:29.787 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:33:29.880 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:33:30.080 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:33:31.020 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:33:31.040 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:33:32.351 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:33:32.749 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:33:32.753 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:33:39.731 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.966 seconds (JVM running for 14.433)
+2020-04-13 21:34:39.901 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:34:39.904 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:34:39.935 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:34:39.973 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:34:44.415 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 21:34:44.448 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:34:44.450 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:34:45.477 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 21:37:00.441 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:37:00.441 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:37:00.451 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:37:00.451 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:37:00.591 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:37:00.591 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:37:00.601 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:37:00.611 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:37:32.736 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:37:33.671 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:37:33.734 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:37:33.830 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:37:34.040 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:37:34.980 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:37:35.000 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:37:36.551 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:37:36.912 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:37:36.922 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:37:43.911 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.167 seconds (JVM running for 14.639)
+2020-04-13 21:38:50.871 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:38:50.871 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:38:50.901 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:38:50.931 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:38:50.991 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:38:51.001 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:38:51.001 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:38:51.011 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:39:25.427 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:39:26.381 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:39:26.441 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:39:26.541 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:39:26.752 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:39:27.581 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:39:27.601 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:39:28.930 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:39:29.311 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:39:29.321 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:39:36.361 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.964 seconds (JVM running for 14.445)
+2020-04-13 21:40:31.953 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:40:31.960 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:40:32.103 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:40:32.138 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:40:33.173 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 21:40:33.208 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:40:33.209 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:40:34.224 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 21:44:06.372 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:44:06.372 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:44:06.372 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:44:06.372 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:44:07.411 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 21:44:07.411 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:44:07.411 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:44:08.432 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 21:44:59.692 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:44:59.692 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:44:59.692 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:44:59.692 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:45:00.215 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:45:00.217 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:45:00.218 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:45:00.228 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:45:31.362 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:45:31.372 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:45:31.372 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:45:31.372 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:45:31.382 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:45:31.382 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:45:31.392 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:45:31.392 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:45:36.861 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:45:37.931 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:45:37.991 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:45:38.121 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:45:38.351 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:45:39.285 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:45:39.300 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:45:40.860 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:45:41.441 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:45:41.451 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:45:48.460 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.752 seconds (JVM running for 15.266)
+2020-04-13 21:45:54.901 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:45:54.911 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:45:55.081 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:45:55.121 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:45:55.191 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:47:30.011 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:47:30.031 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:47:30.051 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:47:41.261 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:47:42.292 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:47:42.352 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:47:42.472 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:47:42.692 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:47:43.532 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:47:43.552 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:47:44.941 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:47:45.519 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:47:45.524 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:47:52.480 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.322 seconds (JVM running for 14.856)
+2020-04-13 21:48:06.442 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:48:06.449 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:48:06.674 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:48:06.717 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:48:06.789 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:48:06.812 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:48:06.822 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:48:06.832 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:49:27.409 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:49:31.473 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:49:32.610 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:49:32.667 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:49:32.778 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:49:33.002 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:49:33.894 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:49:33.920 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:49:35.488 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:49:36.082 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:49:36.087 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:49:43.095 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.753 seconds (JVM running for 15.288)
+2020-04-13 21:50:10.865 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:50:10.873 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:50:11.045 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:50:11.087 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:50:11.154 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:50:44.441 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:50:45.481 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:50:45.541 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:50:45.661 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:50:45.881 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:50:46.821 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:50:46.851 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:50:48.421 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:50:48.970 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:50:48.980 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:50:55.960 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.62 seconds (JVM running for 15.139)
+2020-04-13 21:51:37.082 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:51:38.171 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:51:38.237 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:51:38.351 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:51:38.601 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:51:39.512 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:51:39.532 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:51:41.031 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:51:41.470 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:51:41.580 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:51:48.602 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.598 seconds (JVM running for 15.123)
+2020-04-13 21:52:20.992 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:52:20.992 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:52:31.551 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:52:36.441 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:52:36.611 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:53:35.631 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:53:35.641 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,101] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:53:35.691 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,110] - Authority authentication succeeded！
+2020-04-13 21:53:40.952 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:53:42.092 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:53:42.162 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:53:42.289 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:53:42.501 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:53:43.331 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:53:43.351 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:53:44.728 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:53:45.257 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:53:45.263 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:53:52.246 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.363 seconds (JVM running for 14.932)
+2020-04-13 21:54:14.972 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:54:14.982 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:54:20.050 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:54:20.090 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,104] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:54:20.160 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,113] - Authority authentication succeeded！
+2020-04-13 21:54:24.028 [,] [HystrixTimer-1] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:54:24.031 [,] [HystrixTimer-1] INFO  c.g.u.f.PowerCheckFilter - [isValidation,104] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:54:24.043 [,] [HystrixTimer-1] INFO  c.g.u.f.PowerCheckFilter - [isValidation,113] - Authority authentication succeeded！
+2020-04-13 21:54:59.881 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:55:01.041 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:55:01.121 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:55:01.240 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:55:01.471 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:55:02.412 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:55:02.433 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:55:04.041 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:55:04.600 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:55:04.600 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:55:11.642 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.874 seconds (JVM running for 15.394)
+2020-04-13 21:55:14.590 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:55:14.600 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:55:26.215 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:55:28.492 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,104] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:55:28.652 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,113] - Authority authentication succeeded！
+2020-04-13 21:55:38.991 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:55:38.991 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,104] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:55:39.001 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,113] - Authority authentication succeeded！
+2020-04-13 21:57:38.952 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 21:57:39.990 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 21:57:40.060 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 21:57:40.180 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 21:57:40.391 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 21:57:41.290 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 21:57:41.311 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 21:57:42.762 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 21:57:43.312 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:57:43.322 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 21:57:50.310 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.438 seconds (JVM running for 14.953)
+2020-04-13 21:57:59.172 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:57:59.182 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 21:58:01.962 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 21:58:02.002 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 21:58:02.063 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,112] - Authority authentication succeeded！
+2020-04-13 22:00:36.671 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:00:37.738 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:00:37.791 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:00:37.891 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:00:38.091 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:00:38.931 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:00:38.951 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:00:40.350 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:00:40.726 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:00:40.730 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:00:47.672 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.002 seconds (JVM running for 14.465)
+2020-04-13 22:01:20.737 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:01:20.743 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:01:20.880 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:01:20.900 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:01:20.980 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:01:21.010 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:03:27.280 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:03:28.191 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:03:28.252 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:03:28.352 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:03:28.552 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:03:29.431 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:03:29.451 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:03:30.921 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:03:31.320 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:03:31.330 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:03:38.300 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.015 seconds (JVM running for 14.465)
+2020-04-13 22:03:49.991 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:03:51.020 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:03:51.080 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:03:51.210 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:03:51.430 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:03:52.272 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:03:52.300 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:03:53.725 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:03:54.276 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:03:54.282 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:04:01.279 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.356 seconds (JVM running for 14.911)
+2020-04-13 22:04:10.641 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:04:10.651 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:04:15.312 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:08:07.951 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:08:13.326 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:08:14.414 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:08:14.484 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:08:14.594 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:08:14.821 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:08:15.732 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:08:15.755 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:08:17.139 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:08:17.716 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:08:17.724 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:08:24.702 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.494 seconds (JVM running for 15.022)
+2020-04-13 22:08:42.712 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:08:42.720 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:08:58.101 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:09:31.381 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:09:36.802 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:09:37.729 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:09:37.791 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:09:37.891 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:09:38.091 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:09:38.972 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:09:38.992 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:09:40.361 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:09:40.774 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:09:40.778 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:09:47.831 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.047 seconds (JVM running for 14.515)
+2020-04-13 22:09:54.484 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:09:54.490 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:09:54.630 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:09:54.640 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:09:54.708 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:09:54.718 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:14:40.119 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:14:40.119 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:14:40.129 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:14:40.149 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:14:40.149 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:14:40.169 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:15:09.760 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:15:10.880 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:15:10.940 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:15:11.050 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:15:11.274 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:15:12.192 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:15:12.221 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:15:13.681 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:15:14.254 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:15:14.259 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:15:21.245 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.569 seconds (JVM running for 15.07)
+2020-04-13 22:15:31.160 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:15:31.170 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:15:34.167 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:15:41.729 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:15:42.764 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:15:45.740 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:15:45.743 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:15:46.753 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:15:58.791 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:15:58.791 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:16:04.161 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:16:05.020 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:16:25.741 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,70] - Authority authentication failed！
+2020-04-13 22:17:23.790 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:17:23.800 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:17:27.711 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:17:28.631 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:17:28.681 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:17:28.791 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:17:28.991 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:17:29.901 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:17:29.921 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:17:31.371 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:17:31.758 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:17:31.762 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:17:38.710 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.008 seconds (JVM running for 14.486)
+2020-04-13 22:18:01.511 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:18:01.521 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:18:01.661 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:18:01.691 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:18:06.891 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,112] - Authority authentication succeeded！
+2020-04-13 22:18:06.901 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:18:06.901 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:18:06.912 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,112] - Authority authentication succeeded！
+2020-04-13 22:18:21.310 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:18:22.341 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:18:22.401 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:18:22.521 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:18:22.750 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:18:23.631 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:18:23.651 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:18:25.161 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:18:25.700 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:18:25.710 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:18:32.641 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.432 seconds (JVM running for 14.977)
+2020-04-13 22:18:38.440 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:18:38.440 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:18:43.431 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:18:44.290 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:18:44.460 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,112] - Authority authentication succeeded！
+2020-04-13 22:20:59.481 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:20:59.491 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,103] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:21:05.289 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:21:06.213 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:21:06.270 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:21:06.362 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:21:06.562 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:21:07.481 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:21:07.501 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:21:08.990 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:21:09.371 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:21:09.371 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:21:16.321 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.015 seconds (JVM running for 14.476)
+2020-04-13 22:21:26.620 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:21:26.630 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:21:26.773 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:21:26.801 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:21:26.871 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:21:26.901 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:21:26.901 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:21:26.911 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:21:43.141 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:21:44.170 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:21:44.234 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:21:44.351 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:21:44.581 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:21:45.551 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:21:45.571 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:21:47.161 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:21:47.691 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:21:47.701 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:21:54.715 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.665 seconds (JVM running for 15.201)
+2020-04-13 22:22:07.061 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:22:07.071 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:22:12.891 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:22:15.602 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:22:15.781 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:25:04.570 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:25:04.570 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:25:04.610 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:25:10.272 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:25:11.224 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:25:11.285 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:25:11.380 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:25:11.580 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:25:12.452 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:25:12.482 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:25:18.050 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:25:19.091 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:25:19.151 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:25:19.271 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:25:19.491 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:25:20.412 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:25:20.442 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:25:21.954 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:25:22.542 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:25:22.552 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:25:29.551 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.568 seconds (JVM running for 15.082)
+2020-04-13 22:25:38.162 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:25:38.172 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:25:38.342 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:25:38.392 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:25:38.572 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:26:04.402 [,] [reactor-http-nio-3] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:26:08.530 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:26:09.502 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:26:09.562 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:26:09.662 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:26:09.860 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:26:10.661 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:26:10.680 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:26:12.013 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:26:12.402 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:26:12.402 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:26:19.420 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.871 seconds (JVM running for 14.349)
+2020-04-13 22:27:32.064 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:27:32.972 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:27:33.022 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:27:33.122 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:27:33.320 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:27:34.160 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:27:34.180 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:27:35.510 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:27:35.891 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:27:35.891 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:27:42.871 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.827 seconds (JVM running for 14.288)
+2020-04-13 22:27:48.410 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:27:48.420 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:27:48.560 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:27:48.600 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:27:50.021 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:27:50.111 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:27:50.111 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:27:50.131 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:31:23.962 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:31:23.972 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:31:23.972 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:31:23.972 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:31:24.032 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:31:24.042 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:31:24.042 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:31:24.058 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:32:02.351 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:32:02.351 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:32:02.361 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:32:02.361 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:32:02.371 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:32:02.381 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:32:02.381 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:32:02.391 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:32:52.742 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:32:52.744 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:32:52.745 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:32:52.746 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:32:57.002 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:32:57.012 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:32:57.012 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:32:59.482 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:33:12.922 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:33:12.932 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:33:12.932 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:33:12.932 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:33:28.040 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:33:28.040 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:33:28.040 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:33:41.831 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:34:04.951 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:34:04.951 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:34:04.951 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:34:04.951 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:34:07.801 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:34:07.810 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:34:07.810 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:34:07.820 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:37:27.590 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:37:27.600 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:37:27.600 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:37:27.600 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:37:29.012 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:37:29.032 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:37:29.032 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:37:29.042 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:37:35.631 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:37:35.641 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:37:35.641 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:37:35.641 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:37:35.651 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:37:35.661 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:37:35.661 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:37:35.671 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:38:47.280 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:38:47.282 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:38:47.284 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:38:47.286 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:39:35.991 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:39:36.001 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:39:36.001 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:39:36.001 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:39:39.341 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:39:39.341 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:39:39.341 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:39:41.753 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:39:41.755 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:39:41.756 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:39:41.757 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:39:43.191 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:40:19.832 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:40:19.832 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:40:19.841 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:40:19.841 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:40:23.141 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:40:23.150 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:40:23.150 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:40:23.650 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:41:02.003 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:41:02.003 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:41:02.013 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:41:02.013 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:41:06.581 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:41:06.591 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:41:06.601 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:41:06.601 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:41:16.181 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:41:16.191 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:41:16.191 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:41:16.191 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:41:16.201 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:41:16.214 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:41:16.222 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:41:16.232 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:43:06.641 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:43:06.641 [,] [reactor-http-nio-5] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:43:06.651 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:43:06.651 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:43:16.092 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:43:16.092 [,] [reactor-http-nio-5] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:43:16.092 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:43:22.172 [,] [reactor-http-nio-5] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:43:27.481 [,] [reactor-http-nio-6] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:43:27.481 [,] [reactor-http-nio-6] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:43:27.481 [,] [reactor-http-nio-6] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:43:27.491 [,] [reactor-http-nio-6] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:43:29.217 [,] [reactor-http-nio-6] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:43:32.500 [,] [HystrixTimer-9] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:43:32.500 [,] [HystrixTimer-9] INFO  c.g.u.f.PowerCheckFilter - [isValidation,105] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:43:35.531 [,] [HystrixTimer-9] INFO  c.g.u.f.PowerCheckFilter - [isValidation,114] - Authority authentication succeeded！
+2020-04-13 22:43:53.911 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:43:54.933 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:43:55.003 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:43:55.113 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:43:55.332 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:43:56.252 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:43:56.272 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:43:57.850 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:43:58.502 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:43:58.512 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:44:03.331 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:44:03.341 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:44:03.531 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:44:03.571 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:44:05.541 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.716 seconds (JVM running for 15.238)
+2020-04-13 22:44:16.942 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:44:16.952 [,] [reactor-http-nio-4] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:44:16.952 [,] [reactor-http-nio-4] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:44:16.952 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:44:29.130 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:44:30.180 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:44:30.239 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:44:30.350 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:44:30.580 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:44:31.490 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:44:31.510 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:44:32.992 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:44:33.540 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:44:33.540 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:44:40.530 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 14.505 seconds (JVM running for 15.034)
+2020-04-13 22:44:52.114 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:44:52.124 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:44:52.290 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:44:52.331 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:44:52.481 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,111] - Authority authentication succeeded！
+2020-04-13 22:45:19.120 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-13 22:45:20.051 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-13 22:45:20.111 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-13 22:45:20.211 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-13 22:45:20.412 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-13 22:45:21.263 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-13 22:45:21.281 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-13 22:45:22.636 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-13 22:45:23.010 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:45:23.020 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-13 22:45:30.001 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 13.862 seconds (JVM running for 14.324)
+2020-04-13 22:45:33.621 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:45:33.621 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:45:33.767 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:45:33.801 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:45:33.871 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,111] - Authority authentication succeeded！
+2020-04-13 22:45:34.076 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:45:34.076 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/user/info"}
+2020-04-13 22:45:34.096 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,111] - Authority authentication succeeded！
+2020-04-13 22:45:34.126 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:45:34.126 [,] [reactor-http-nio-2] INFO  c.g.util.CorsConfigs - [lambda$corsFilter$0,47] - Access-Control-Allow-Origin:null
+2020-04-13 22:45:34.126 [,] [reactor-http-nio-2] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:45:34.126 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/menu/user"}
+2020-04-13 22:45:34.136 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [isValidation,111] - Authority authentication succeeded！
+2020-04-13 22:45:34.206 [,] [reactor-http-nio-3] INFO  c.g.u.t.TokenManager - [verrifyToken,96] - Token验证成功
+2020-04-13 22:45:34.218 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,102] - {"method":"GET","uri":"/v2/menu/user"}
+2020-04-13 22:45:34.224 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [isValidation,111] - Authority authentication succeeded！

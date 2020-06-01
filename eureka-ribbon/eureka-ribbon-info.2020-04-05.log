@@ -1,0 +1,29 @@
+2020-04-05 23:02:30.100 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-05 23:02:34.537 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10113"]
+2020-04-05 23:02:34.538 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2020-04-05 23:02:34.539 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 23:02:34.916 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2020-04-05 23:02:35.159 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-05 23:02:35.236 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6d1dcdff
+2020-04-05 23:02:36.721 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-05 23:02:39.169 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-05 23:02:39.580 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-05 23:02:39.580 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-05 23:02:39.923 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-05 23:02:39.924 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-05 23:02:40.322 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-05 23:02:40.782 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-05 23:02:40.783 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-05 23:02:40.783 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-05 23:02:40.783 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-05 23:02:40.784 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-05 23:02:40.784 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-05 23:02:40.784 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-05 23:02:43.013 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-05 23:02:43.018 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-05 23:02:43.031 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1586098963027 with initial instances count: 0
+2020-04-05 23:02:43.036 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1586098963036, current=UP, previous=STARTING]
+2020-04-05 23:02:43.078 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/192.168.0.105:ribbonClient:10113: registering service...
+2020-04-05 23:02:43.088 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10113"]
+2020-04-05 23:02:44.238 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 17.547 seconds (JVM running for 21.083)
+2020-04-05 23:02:45.124 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/192.168.0.105:ribbonClient:10113: registering service...

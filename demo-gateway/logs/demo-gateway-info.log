@@ -1,0 +1,178 @@
+2020-05-20 19:52:53.700 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-20 19:52:57.465 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 19:52:57.628 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-20 19:52:57.900 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 19:52:58.575 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-20 19:53:00.517 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-20 19:53:00.624 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-20 19:53:03.508 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 19:53:04.889 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 19:53:04.909 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 19:53:12.053 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 22.349 seconds (JVM running for 25.639)
+2020-05-20 19:53:25.800 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-20 19:53:25.801 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,42] - 网关--log-RequestId:8429ec7a-1
+2020-05-20 19:53:26.089 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 19:53:26.090 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:8429ec7a-1
+2020-05-20 19:53:26.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 19:53:26.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 19:53:26.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 19:53:26.481 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-20 19:53:26.482 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:8429ec7a-1
+2020-05-20 19:53:26.482 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 19:53:26.483 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-20 19:53:26.483 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 19:53:26.609 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,61] - Gateway-response-响应时间:2020-05-20T11:53:26.383+0000
+2020-05-20 19:53:26.609 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,63] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Wed, 20 May 2020 11:53:26 GMT"];responseResult={"timestamp":"2020-05-20T11:53:26.383+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-20 20:07:09.457 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-20 20:07:11.989 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 20:07:12.160 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-20 20:07:12.495 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 20:07:13.121 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-20 20:07:14.600 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-20 20:07:14.740 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-20 20:07:17.400 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 20:07:18.470 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 20:07:18.478 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 20:07:24.605 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 17.775 seconds (JVM running for 18.682)
+2020-05-20 20:07:29.188 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-20 20:07:29.188 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d11d796e-1
+2020-05-20 20:07:29.188 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2020-05-20 20:07:29.189 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:multipart/form-data;boundary=--------------------------704330096005585350935209
+2020-05-20 20:07:29.189 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2020-05-20 20:07:29.190 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{name=[1], sex=[2]}
+2020-05-20 20:07:29.457 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:07:29.458 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d11d796e-1
+2020-05-20 20:07:29.468 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:07:29.468 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:07:29.468 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 20:07:29.876 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-20 20:07:29.877 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d11d796e-1
+2020-05-20 20:07:29.877 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:07:29.877 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-20 20:07:29.878 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 20:07:29.888 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,93] - RequestBody:{"timestamp":"2020-05-20T12:07:29.794+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"}
+2020-05-20 20:07:29.888 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequstStatus:404 NOT_FOUND
+2020-05-20 20:07:29.999 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,99] - Gateway-response-响应时间:2020-05-20T12:07:29.794+0000
+2020-05-20 20:07:30.000 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,101] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Wed, 20 May 2020 12:07:29 GMT"];responseResult={"timestamp":"2020-05-20T12:07:29.794+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-20 20:08:20.658 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-20 20:08:20.658 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d11d796e-2
+2020-05-20 20:08:20.658 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2020-05-20 20:08:20.659 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:multipart/form-data;boundary=--------------------------778890139811758735056362
+2020-05-20 20:08:20.659 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2020-05-20 20:08:20.659 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2020-05-20 20:08:20.660 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:08:20.660 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d11d796e-2
+2020-05-20 20:08:20.661 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:08:20.662 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:08:20.662 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 20:08:21.039 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-20 20:08:21.041 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d11d796e-2
+2020-05-20 20:08:21.044 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:08:21.046 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-20 20:08:21.048 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 20:08:21.054 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,93] - RequestBody:{"timestamp":"2020-05-20T12:08:21.027+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"}
+2020-05-20 20:08:21.055 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequstStatus:404 NOT_FOUND
+2020-05-20 20:08:21.057 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,99] - Gateway-response-响应时间:2020-05-20T12:08:21.027+0000
+2020-05-20 20:08:21.057 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,101] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Wed, 20 May 2020 12:07:29 GMT"];responseResult={"timestamp":"2020-05-20T12:07:29.794+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Wed, 20 May 2020 12:08:21 GMT"];responseResult={"timestamp":"2020-05-20T12:08:21.027+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-20 20:08:53.974 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-20 20:08:56.472 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 20:08:56.610 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-20 20:08:56.859 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 20:08:57.442 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-20 20:08:59.074 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-20 20:08:59.138 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-20 20:09:02.033 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 20:09:03.299 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 20:09:03.310 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 20:09:09.419 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.167 seconds (JVM running for 19.429)
+2020-05-20 20:09:14.627 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-20 20:09:14.628 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:bbd7918b-1
+2020-05-20 20:09:14.628 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2020-05-20 20:09:14.629 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:multipart/form-data;boundary=--------------------------702275908828872573852543
+2020-05-20 20:09:14.629 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2020-05-20 20:09:14.630 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2020-05-20 20:09:14.882 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:09:14.882 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:bbd7918b-1
+2020-05-20 20:09:14.892 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:09:14.893 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:09:14.894 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 20:09:15.026 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:404 NOT_FOUND
+2020-05-20 20:09:15.027 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:bbd7918b-1
+2020-05-20 20:09:15.027 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:09:15.028 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:404 NOT_FOUND
+2020-05-20 20:09:15.028 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - GET
+2020-05-20 20:09:15.034 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,93] - RequestBody:{"timestamp":"2020-05-20T12:09:15.010+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"}
+2020-05-20 20:09:15.034 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequstStatus:404 NOT_FOUND
+2020-05-20 20:09:15.170 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,99] - Gateway-response-响应时间:2020-05-20T12:09:15.010+0000
+2020-05-20 20:09:15.171 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,101] -  让人想哭:Response Info [ status=404 NOT_FOUND;header=[transfer-encoding:"chunked", Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", Date:"Wed, 20 May 2020 12:09:15 GMT"];responseResult={"timestamp":"2020-05-20T12:09:15.010+0000","status":404,"error":"Not Found","message":"No message available","path":"/hello"} ]
+2020-05-20 20:09:51.944 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-20 20:09:51.945 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:bbd7918b-2
+2020-05-20 20:09:51.945 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:POST
+2020-05-20 20:09:51.946 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:multipart/form-data;boundary=--------------------------775558268302377805628417
+2020-05-20 20:09:51.946 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2020-05-20 20:09:51.946 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2020-05-20 20:09:51.948 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:09:51.949 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:bbd7918b-2
+2020-05-20 20:09:51.949 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:09:51.949 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:09:51.950 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - POST
+2020-05-20 20:09:55.738 [,] [HystrixTimer-2] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-20 20:09:55.742 [,] [HystrixTimer-2] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$0,43] - 网关--降级--Post:{}
+2020-05-20 20:09:55.745 [,] [HystrixTimer-2] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$1,45] - 网关--降级--Post:{}
+2020-05-20 20:09:55.747 [,] [HystrixTimer-2] INFO  c.g.u.h.HystrixFallbackHandler - [handle,46] - 网关--降级--Post:[http://127.0.0.1:10000/hello]
+2020-05-20 20:10:08.168 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$filter$0,74] - RequestBody:----------------------------775558268302377805628417
+Content-Disposition: form-data; name="name"
+
+于谦
+----------------------------775558268302377805628417
+Content-Disposition: form-data; name="sex"
+
+123
+----------------------------775558268302377805628417--
+
+2020-05-20 20:10:11.098 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:10:11.099 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:bbd7918b-2
+2020-05-20 20:10:11.100 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:10:11.101 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:10:11.103 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - POST
+2020-05-20 20:10:18.281 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-05-20 20:10:20.515 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-20 20:10:20.640 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-20 20:10:20.839 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-20 20:10:21.359 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-05-20 20:10:22.938 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-05-20 20:10:22.972 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-05-20 20:10:25.642 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-20 20:10:26.735 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 20:10:26.746 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-20 20:10:32.539 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 16.827 seconds (JVM running for 17.67)
+2020-05-20 20:10:37.145 [,] [reactor-http-nio-2] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2020-05-20 20:10:37.146 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:893413c9-1
+2020-05-20 20:10:37.146 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:POST
+2020-05-20 20:10:37.146 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:multipart/form-data;boundary=--------------------------617851360632216906347190
+2020-05-20 20:10:37.146 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2020-05-20 20:10:37.147 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2020-05-20 20:10:37.324 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:10:37.325 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:893413c9-1
+2020-05-20 20:10:37.332 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:10:37.332 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:10:37.332 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - POST
+2020-05-20 20:10:37.427 [,] [reactor-http-nio-2] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$filter$0,74] - ==============RequestBody:----------------------------617851360632216906347190
+Content-Disposition: form-data; name="name"
+
+于谦
+----------------------------617851360632216906347190
+Content-Disposition: form-data; name="sex"
+
+123
+----------------------------617851360632216906347190--
+
+2020-05-20 20:10:40.345 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,36] - 网关--降级处理--：200 OK
+2020-05-20 20:10:40.347 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$0,43] - 网关--降级--Post:{}
+2020-05-20 20:10:40.348 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [lambda$handle$1,45] - 网关--降级--Post:{}
+2020-05-20 20:10:40.349 [,] [HystrixTimer-1] INFO  c.g.u.h.HystrixFallbackHandler - [handle,46] - 网关--降级--Post:[http://127.0.0.1:10000/hello]
+2020-05-20 20:10:40.390 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2020-05-20 20:10:40.390 [,] [reactor-http-nio-2] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:893413c9-1
+2020-05-20 20:10:40.391 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,87] - 网关--request-Path:/hello
+2020-05-20 20:10:40.392 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,88] - 网关--response-code:200 OK
+2020-05-20 20:10:40.392 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,92] - POST

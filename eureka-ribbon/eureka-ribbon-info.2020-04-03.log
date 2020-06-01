@@ -1,0 +1,587 @@
+2020-04-03 16:01:49.310 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:01:49.896 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:01:49.907 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:01:51.532 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:01:52.125 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:01:52.125 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:01:52.246 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:01:52.246 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:01:52.463 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:01:52.850 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:01:52.851 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:01:52.851 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:01:52.851 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:01:52.851 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:01:52.852 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:01:52.852 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:01:53.166 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:01:53.169 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:01:53.172 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:01:53.177 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585900913175 with initial instances count: 1
+2020-04-03 16:01:53.182 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585900913182, current=UP, previous=STARTING]
+2020-04-03 16:01:53.185 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:01:53.198 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.191 seconds (JVM running for 7.073)
+2020-04-03 16:01:53.207 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:01:53.225 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:01:53.225 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:01:53.230 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:01:53.232 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:01:53.238 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:01:53.251 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:02:24.011 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:02:24.604 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:02:24.611 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:02:26.087 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:02:26.702 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:02:26.702 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:02:26.873 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:02:26.874 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:02:27.145 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:02:27.502 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:02:27.503 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:02:27.503 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:02:27.503 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:02:27.503 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:02:27.503 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:02:27.504 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:02:27.775 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:02:27.777 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:02:27.780 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:02:27.784 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585900947783 with initial instances count: 1
+2020-04-03 16:02:27.789 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585900947789, current=UP, previous=STARTING]
+2020-04-03 16:02:27.791 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:02:27.807 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 5.946 seconds (JVM running for 6.779)
+2020-04-03 16:02:27.818 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:02:27.834 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:02:27.835 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:02:27.840 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:02:27.842 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:02:27.848 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:02:27.860 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:09:16.074 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:09:16.890 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:09:16.899 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:09:18.502 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:09:19.151 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:09:19.152 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:09:19.377 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:09:19.378 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:09:19.653 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:09:20.110 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:09:20.111 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:09:20.111 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:09:20.111 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:09:20.111 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:09:20.111 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:09:20.112 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:09:20.391 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:09:20.393 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:09:20.396 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:09:20.400 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585901360399 with initial instances count: 1
+2020-04-03 16:09:20.404 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585901360404, current=UP, previous=STARTING]
+2020-04-03 16:09:20.405 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:09:20.420 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.626 seconds (JVM running for 7.472)
+2020-04-03 16:09:20.429 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:09:20.445 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:09:20.446 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:09:20.449 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:09:20.451 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:09:20.454 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:09:20.466 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:09:55.347 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:09:56.125 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:09:56.133 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:09:57.963 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:09:58.752 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:09:58.753 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:09:58.890 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:09:58.891 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:09:59.094 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:09:59.434 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:09:59.434 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:09:59.434 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:09:59.434 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:09:59.434 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:09:59.435 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:09:59.435 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:09:59.718 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:09:59.720 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:09:59.722 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:09:59.726 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585901399725 with initial instances count: 1
+2020-04-03 16:09:59.731 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585901399731, current=UP, previous=STARTING]
+2020-04-03 16:09:59.732 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:09:59.746 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.728 seconds (JVM running for 7.516)
+2020-04-03 16:09:59.756 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:09:59.770 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:09:59.771 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:09:59.776 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:09:59.780 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:09:59.786 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:09:59.809 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:11:23.008 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:11:23.576 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:11:23.586 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:11:25.124 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:11:25.755 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:11:25.755 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:11:25.929 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:11:25.930 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:11:26.171 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:11:26.529 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:11:26.530 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:11:26.530 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:11:26.530 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:11:26.531 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:11:26.531 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:11:26.531 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:11:26.846 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:11:26.848 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:11:26.850 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:11:26.854 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585901486853 with initial instances count: 1
+2020-04-03 16:11:26.859 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585901486859, current=UP, previous=STARTING]
+2020-04-03 16:11:26.861 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:11:26.875 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.27 seconds (JVM running for 7.03)
+2020-04-03 16:11:26.883 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:11:26.900 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:11:26.901 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:11:26.905 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:11:26.907 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:11:26.912 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:11:26.924 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:11:42.213 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:11:42.899 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:11:42.908 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:11:44.432 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:11:45.053 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:11:45.054 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:11:45.174 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:11:45.175 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:11:45.373 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:11:45.768 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:11:45.768 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:11:45.769 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:11:45.769 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:11:45.769 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:11:45.769 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:11:45.770 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:11:46.076 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:11:46.079 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:11:46.081 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:11:46.086 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585901506084 with initial instances count: 1
+2020-04-03 16:11:46.092 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585901506092, current=UP, previous=STARTING]
+2020-04-03 16:11:46.094 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:11:46.141 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.046 seconds (JVM running for 6.866)
+2020-04-03 16:11:46.153 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:11:46.166 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:11:46.167 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:11:46.173 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:11:46.177 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:11:46.185 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:11:46.206 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:13:19.914 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:13:20.556 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:13:20.567 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:13:22.551 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:13:23.181 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:13:23.182 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:13:23.359 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:13:23.359 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:13:23.627 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:13:24.010 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:13:24.011 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:13:24.011 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:13:24.011 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:13:24.012 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:13:24.012 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:13:24.012 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:13:24.394 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:13:24.397 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:13:24.401 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:13:24.406 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585901604404 with initial instances count: 1
+2020-04-03 16:13:24.411 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585901604411, current=UP, previous=STARTING]
+2020-04-03 16:13:24.413 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:13:24.427 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.74 seconds (JVM running for 7.578)
+2020-04-03 16:13:24.437 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:13:24.452 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:13:24.453 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:13:24.457 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:13:24.458 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:13:24.463 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:13:24.475 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:13:45.159 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:13:45.751 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:13:45.758 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:13:47.385 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:13:48.020 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:13:48.020 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:13:48.141 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:13:48.142 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:13:48.351 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:13:48.760 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:13:48.760 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:13:48.760 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:13:48.761 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:13:48.761 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:13:48.761 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:13:48.762 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:13:49.073 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:13:49.076 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:13:49.078 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:13:49.085 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585901629084 with initial instances count: 1
+2020-04-03 16:13:49.089 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585901629089, current=UP, previous=STARTING]
+2020-04-03 16:13:49.091 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:13:49.104 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 6.538 seconds (JVM running for 7.476)
+2020-04-03 16:13:49.114 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,909] - Shutting down DiscoveryClient ...
+2020-04-03 16:13:49.133 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:13:49.134 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:13:49.138 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:13:49.140 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,945] - Unregistering ...
+2020-04-03 16:13:49.143 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [unregister,947] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - deregister  status: 200
+2020-04-03 16:13:49.154 [,] [SpringContextShutdownHook] INFO  c.n.d.DiscoveryClient - [shutdown,934] - Completed shut down of DiscoveryClient
+2020-04-03 16:16:02.901 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:21:18.321 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:27:04.666 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:36:11.179 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:36:13.444 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10113"]
+2020-04-03 16:36:13.445 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2020-04-03 16:36:13.446 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 16:36:13.596 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2020-04-03 16:36:13.712 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:36:13.756 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1deceb67
+2020-04-03 16:36:14.672 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:36:16.364 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:36:16.561 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:36:16.561 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:36:16.745 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:36:16.746 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:36:16.969 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:36:17.298 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:36:17.299 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:36:17.299 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:36:17.300 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:36:17.300 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:36:17.300 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:36:17.301 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:36:17.572 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 16:36:17.574 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:36:17.578 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:36:17.583 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585902977582 with initial instances count: 1
+2020-04-03 16:36:17.588 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585902977588, current=UP, previous=STARTING]
+2020-04-03 16:36:17.610 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10113"]
+2020-04-03 16:36:17.656 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:36:17.731 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 16:36:18.327 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 9.635 seconds (JVM running for 10.454)
+2020-04-03 16:41:17.304 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:46:13.874 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 16:46:16.017 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10113"]
+2020-04-03 16:46:16.018 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2020-04-03 16:46:16.018 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 16:46:16.190 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2020-04-03 16:46:16.325 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:46:16.353 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@14b789f6
+2020-04-03 16:46:17.355 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 16:46:19.170 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 16:46:19.381 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 16:46:19.381 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 16:46:19.572 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 16:46:19.573 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 16:46:19.834 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:46:20.142 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:46:20.142 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:46:20.142 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:46:20.142 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:46:20.143 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:46:20.143 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:46:20.143 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:46:22.274 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 16:46:22.285 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 16:46:22.297 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585903582294 with initial instances count: 0
+2020-04-03 16:46:22.303 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585903582303, current=UP, previous=STARTING]
+2020-04-03 16:46:22.323 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:46:22.347 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10113"]
+2020-04-03 16:46:23.008 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 11.485 seconds (JVM running for 12.279)
+2020-04-03 16:46:24.358 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:46:52.276 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:46:52.277 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:46:52.277 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:46:52.277 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:46:52.278 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:46:52.278 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:46:52.278 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:46:56.385 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:47:24.301 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:47:24.303 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:47:24.304 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:47:24.304 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:47:24.304 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:47:24.305 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:47:24.306 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:47:28.398 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:47:56.321 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:48:00.417 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:48:28.334 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:48:28.334 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:48:28.334 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:48:28.335 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:48:28.335 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:48:28.335 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:48:28.335 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:48:32.430 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:49:00.346 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:49:04.456 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:49:32.372 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:49:32.372 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:49:32.372 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:49:32.372 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:49:32.372 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:49:32.372 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:49:32.373 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:49:36.478 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:50:04.392 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:50:08.492 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:50:36.403 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:50:36.403 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:50:36.404 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:50:36.404 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:50:36.404 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:50:36.405 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:50:36.405 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:50:40.504 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:51:08.413 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:51:08.413 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:51:08.414 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:51:08.414 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:51:08.414 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:51:08.414 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:51:08.415 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:51:12.543 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:51:20.148 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:51:40.437 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:51:40.437 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:51:40.437 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:51:40.438 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:51:40.438 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:51:40.438 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:51:40.438 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:51:44.558 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:52:12.465 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:52:12.465 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:52:12.465 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:52:12.465 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:52:12.466 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:52:12.466 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:52:12.466 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:52:16.581 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:52:44.476 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:52:44.476 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:52:44.477 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:52:44.477 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:52:44.477 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:52:44.477 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:52:44.477 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:52:48.605 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:53:16.498 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:53:20.628 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:53:48.523 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:53:48.523 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:53:48.523 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:53:48.523 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:53:48.523 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:53:48.524 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:53:48.524 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:53:52.652 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:54:20.546 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:54:24.675 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:54:52.582 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:54:56.691 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:55:24.589 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:55:24.589 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:55:24.589 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:55:24.590 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:55:24.590 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:55:24.590 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:55:24.590 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:55:28.702 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:55:56.612 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:55:56.612 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:55:56.613 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:55:56.613 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:55:56.614 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:55:56.614 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:55:56.614 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:56:00.716 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:56:20.151 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 16:56:28.626 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:56:28.627 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:56:28.627 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:56:28.627 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:56:28.627 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:56:28.627 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:56:28.627 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:56:32.737 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:57:00.634 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:57:00.634 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:57:00.634 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:57:00.634 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:57:00.634 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:57:00.634 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:57:00.635 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:57:04.749 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:57:32.658 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:57:32.658 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:57:32.658 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:57:32.659 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:57:32.659 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:57:32.659 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:57:32.659 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:57:36.770 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:58:04.679 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:58:08.782 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:58:36.691 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:58:40.801 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:59:08.702 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:59:08.703 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:59:08.703 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:59:08.703 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:59:08.703 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:59:08.703 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:59:08.704 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:59:12.812 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 16:59:40.717 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 16:59:40.717 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 16:59:40.718 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 16:59:40.718 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 16:59:40.718 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 16:59:40.718 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 16:59:40.718 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 16:59:44.823 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 17:00:12.734 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 17:00:12.734 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 17:00:12.735 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 17:00:12.735 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 17:00:12.735 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 17:00:12.735 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 17:00:12.735 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 17:00:16.849 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 17:00:44.748 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 17:00:48.874 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 17:01:16.768 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 17:01:17.121 [,] [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 17:01:20.152 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:01:20.902 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 17:15:29.026 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+2020-04-03 17:15:31.416 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10113"]
+2020-04-03 17:15:31.417 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2020-04-03 17:15:31.417 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-03 17:15:31.614 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2020-04-03 17:15:31.730 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 17:15:31.755 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4649d70a
+2020-04-03 17:15:32.661 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 17:15:34.389 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,368] - Initializing Eureka in region us-east-1
+2020-04-03 17:15:34.597 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-03 17:15:34.598 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-03 17:15:34.784 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,80] - Using XML encoding codec XStreamXml
+2020-04-03 17:15:34.785 [,] [main] INFO  c.n.d.p.DiscoveryJerseyProvider - [<init>,81] - Using XML decoding codec XStreamXml
+2020-04-03 17:15:35.001 [,] [main] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:15:35.322 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,981] - Disable delta property : false
+2020-04-03 17:15:35.322 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,982] - Single vip registry refresh property : null
+2020-04-03 17:15:35.323 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,983] - Force full registry fetch : false
+2020-04-03 17:15:35.324 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,984] - Application is null : false
+2020-04-03 17:15:35.324 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,985] - Registered Applications size is zero : true
+2020-04-03 17:15:35.324 [,] [main] INFO  c.n.d.DiscoveryClient - [fetchRegistry,987] - Application version is -1: true
+2020-04-03 17:15:35.325 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1070] - Getting all instance registry info from the eureka server
+2020-04-03 17:15:35.600 [,] [main] INFO  c.n.d.DiscoveryClient - [getAndStoreFullRegistry,1079] - The response status is 200
+2020-04-03 17:15:35.604 [,] [main] INFO  c.n.d.DiscoveryClient - [initScheduledTasks,1294] - Starting heartbeat executor: renew interval is: 1
+2020-04-03 17:15:35.608 [,] [main] INFO  c.n.d.InstanceInfoReplicator - [<init>,60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-03 17:15:35.613 [,] [main] INFO  c.n.d.DiscoveryClient - [<init>,468] - Discovery Client initialized at timestamp 1585905335612 with initial instances count: 1
+2020-04-03 17:15:35.615 [,] [main] INFO  c.n.d.DiscoveryClient - [notify,1330] - Saw local status change event StatusChangeEvent [timestamp=1585905335615, current=UP, previous=STARTING]
+2020-04-03 17:15:35.640 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10113"]
+2020-04-03 17:15:35.679 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,847] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113: registering service...
+2020-04-03 17:15:35.733 [,] [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient - [register,856] - DiscoveryClient_RIBBONCLIENT/DESKTOP-6POJA73:ribbonClient:10113 - registration status: 204
+2020-04-03 17:15:36.315 [,] [main] INFO  c.z.e.EurekaRibbonApplication - [logStarted,61] - Started EurekaRibbonApplication in 9.892 seconds (JVM running for 10.894)
+2020-04-03 17:18:20.428 [,] [http-nio-10113-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 17:20:35.329 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:25:35.333 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:30:35.334 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:35:35.337 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:40:35.339 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:45:35.341 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:50:35.343 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 17:55:35.345 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 18:00:35.347 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 18:05:35.350 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 18:10:35.353 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 18:15:35.355 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 18:20:35.357 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 18:25:35.360 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 20:33:47.574 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 20:38:47.575 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 20:43:47.578 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 20:48:47.581 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 20:53:47.585 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 20:58:47.588 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 21:03:47.593 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 21:08:47.595 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 21:14:05.775 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 21:19:05.779 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration
+2020-04-03 21:24:05.782 [,] [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver - [getClusterEndpoints,43] - Resolving eureka endpoints via configuration

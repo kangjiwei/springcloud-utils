@@ -1,0 +1,143 @@
+2020-04-18 07:53:14.514 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api
+2020-04-18 07:55:11.612 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api
+2020-04-18 07:57:57.734 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api
+2020-04-18 08:13:49.428 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:13:52.627 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:13:52.854 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:13:53.375 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:13:54.067 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:13:55.943 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:13:56.029 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:13:59.157 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:14:00.604 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:14:00.619 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:14:02.407 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-04-18 08:14:02.425 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-04-18 08:14:45.371 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:14:48.564 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:14:48.803 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:14:49.113 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:14:49.730 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:14:51.223 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:14:51.250 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:14:54.083 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:14:55.344 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:14:55.356 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:14:59.362 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-04-18 08:14:59.388 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-04-18 08:15:31.306 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:15:34.016 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:15:34.168 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:15:34.417 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:15:34.957 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:15:36.367 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:15:36.421 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:15:38.807 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:15:40.107 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:15:40.117 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:15:43.748 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-04-18 08:15:43.772 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-04-18 08:16:44.720 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:16:47.640 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:16:47.844 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:16:48.139 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:16:48.773 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:16:50.416 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:16:50.451 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:16:53.172 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:16:54.487 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:16:54.501 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:17:00.565 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 19.944 seconds (JVM running for 21.27)
+2020-04-18 08:17:43.346 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:17:45.943 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:17:46.085 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:17:46.325 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:17:46.868 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:17:48.382 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:17:48.414 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:17:51.202 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:17:52.413 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:17:52.427 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:17:58.041 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.288 seconds (JVM running for 19.588)
+2020-04-18 08:18:26.087 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:18:28.826 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:18:28.946 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:18:29.183 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:18:29.730 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:18:31.121 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:18:31.167 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:18:33.695 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:18:35.005 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:18:35.020 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:18:40.496 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.16 seconds (JVM running for 19.779)
+2020-04-18 08:19:24.287 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:19:26.518 [,] [reactor-http-nio-3] INFO  c.g.c.DefaultHystrixController - [defaultfallback,34] - 进行熔断
+2020-04-18 08:19:26.519 [,] [reactor-http-nio-3] INFO  c.g.util.DCFRespMsg - [setCode,62] - 3010  请求超时或者是接口不通
+2020-04-18 08:19:26.555 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:19:26.566 [,] [reactor-http-nio-2] INFO  c.g.util.DCFRespMsg - [setCode,62] - 3009  没有权限
+2020-04-18 08:19:26.567 [,] [reactor-http-nio-2] INFO  c.g.util.DCFRespMsg - [setCode,62] - 3009  没有权限
+2020-04-18 08:19:54.919 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:19:57.690 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:19:57.826 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:19:58.114 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:19:58.701 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:20:00.098 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:20:00.132 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:20:03.068 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:20:04.546 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:20:04.556 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:20:10.327 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.549 seconds (JVM running for 19.678)
+2020-04-18 08:20:31.729 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:20:33.896 [,] [reactor-http-nio-4] INFO  c.g.c.DefaultHystrixController - [defaultfallback,34] - 进行熔断
+2020-04-18 08:20:33.899 [,] [reactor-http-nio-4] INFO  c.g.util.DCFRespMsg - [setCode,62] - 3010  请求超时或者是接口不通
+2020-04-18 08:20:34.054 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:21:39.695 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:21:42.776 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:21:42.956 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:21:43.274 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:21:43.986 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:21:45.543 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:21:45.572 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:21:48.272 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:21:49.771 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:21:49.794 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:21:56.721 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 20.691 seconds (JVM running for 22.254)
+2020-04-18 08:22:05.027 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:22:05.481 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:22:29.986 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:22:30.172 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:22:45.641 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:22:45.708 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:23:02.738 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:23:02.749 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:23:25.300 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:23:25.310 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:24:06.820 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:24:06.834 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:24:08.830 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:24:08.845 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:24:28.852 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:24:28.860 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:25:02.261 [,] [main] INFO  c.g.DemoGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2020-04-18 08:25:04.790 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-18 08:25:04.916 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-18 08:25:05.197 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-18 08:25:05.835 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-18 08:25:07.566 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-18 08:25:07.607 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-04-18 08:25:10.514 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-18 08:25:11.811 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:25:11.824 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-18 08:25:17.614 [,] [main] INFO  c.g.DemoGatewayApplication - [logStarted,61] - Started DemoGatewayApplication in 18.606 seconds (JVM running for 19.828)
+2020-04-18 08:25:47.615 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:25:47.778 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:25:54.491 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:25:54.505 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:17.657 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:17.671 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:22.927 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:22.942 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:31.865 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:31.876 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:40.685 [,] [reactor-http-nio-2] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET
+2020-04-18 08:26:40.695 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,91] - GET

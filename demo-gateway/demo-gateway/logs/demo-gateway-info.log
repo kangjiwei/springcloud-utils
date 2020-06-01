@@ -1,0 +1,45 @@
+2020-04-16 10:04:58.893 [,] [main] INFO  c.g.DemoGatewayApplicationTests - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-16 10:05:01.274 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:05:01.414 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:05:01.625 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:05:02.170 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-16 10:05:05.442 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-16 10:05:05.474 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:05:08.515 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:05:11.090 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-16 10:05:11.104 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-16 10:05:16.597 [,] [main] INFO  c.g.DemoGatewayApplicationTests - [logStarted,61] - Started DemoGatewayApplicationTests in 20.456 seconds (JVM running for 22.509)
+2020-04-16 10:05:16.873 [,] [SpringContextShutdownHook] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-16 10:05:16.882 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-04-16 10:05:20.587 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2020-04-16 10:08:07.893 [,] [main] INFO  c.g.DemoGatewayApplicationTests - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-16 10:08:10.910 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:08:11.114 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:08:11.515 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:08:12.507 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-16 10:08:19.643 [,] [main] INFO  c.g.DemoGatewayApplicationTests - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-16 10:08:20.432 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:08:20.443 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-2 - Starting...
+2020-04-16 10:08:52.747 [,] [main] INFO  c.g.DemoGatewayApplicationTests - [logStartupProfileInfo,655] - The following profiles are active: app,db
+2020-04-16 10:08:54.864 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:08:54.968 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:08:55.196 [,] [main] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:08:55.866 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2020-04-16 10:09:01.172 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2020-04-16 10:09:01.215 [,] [main] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:09:04.048 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:09:05.912 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-16 10:09:05.929 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-16 10:09:11.364 [,] [main] INFO  c.g.DemoGatewayApplicationTests - [logStarted,61] - Started DemoGatewayApplicationTests in 21.021 seconds (JVM running for 23.297)
+2020-04-16 10:34:14.757 [,] [SpringContextShutdownHook] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-16 10:34:14.764 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2020-04-16 21:13:24.084 [,] [main] INFO  c.g.u.c.GuavaCache - [put,43] - 缓存新增成功！
+2020-04-16 21:13:24.100 [,] [main] INFO  c.g.u.c.GuavaCache - [put,48] - {userName=ss, userId=sss}
+2020-04-16 21:14:11.962 [,] [main] INFO  c.g.u.c.GuavaCache - [put,43] - 缓存新增成功！
+2020-04-16 21:14:11.971 [,] [main] INFO  c.g.u.c.GuavaCache - [put,48] - {userName=ss, userId=sss}
+2020-04-16 21:18:33.281 [,] [main] INFO  c.g.u.c.GuavaCache - [put,43] - 缓存新增成功！
+2020-04-16 21:18:33.288 [,] [main] INFO  c.g.u.c.GuavaCache - [put,48] - {userName=ss, userId=sss}
+2020-04-16 21:23:05.258 [,] [main] INFO  c.g.u.c.GuavaCache - [put,43] - 缓存新增成功！
+2020-04-16 21:23:05.266 [,] [main] INFO  c.g.u.c.GuavaCache - [put,48] - {userName=ss, userId=sss}
+2020-04-16 21:28:13.632 [,] [main] INFO  c.g.u.c.GuavaCache - [put,43] - 缓存新增成功！
+2020-04-16 21:28:13.641 [,] [main] INFO  c.g.u.c.GuavaCache - [put,48] - {userName=ss, userId=sss}

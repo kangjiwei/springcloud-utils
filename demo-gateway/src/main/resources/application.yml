@@ -1,0 +1,268 @@
+server:
+  port: 10000
+spring:
+  profiles:
+    active: api,db
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: gateway_server
+  cloud:
+    gateway:
+      #default-filters:
+      #- name: hystrix  #熔断路由
+        #args:
+          #name: default
+          #fallbackUri: 'forward:/defaultfallback'
+      filters:
+      - name: RequestRateLimiter #限流路由
+        args:
+          redis-rate-limiter.replenishRate: 50 #允许用户每秒处理多少请求
+          redis-rate-limiter.burstCapacity: 60 #令牌桶的容量，允许在一秒钟完成的请求量
+          key-resolver: "#{@IPKeyResolver}"
+          predicates:
+            - Method=GET
+      - name: Retry
+        args:
+          retries: 3 #重试次数 默认值3次
+          statuses: BAD_GATEWAY #顾虑返回的状态码
+          #过滤一系列状态码，默认是值SERVER_ERROR 以5开头。org.springframework.http.HttpStatus.Series
+          #符合状态码，才会重试
+          #series: SERVER_ERROR
+      routes:
+      # 指标库管里
+      - id: niffler
+        uri: http://localhost:10013/
+        predicates:
+          - Path=/plan/addIndexes
+                ,/uploadFile
+                ,/dsource/addDataSource
+                ,/dsource/duplicateChecking
+                ,/dsource/apiSource
+                ,/dsource/updateDataSource
+                ,dsource/connectionDatabase
+                ,dsource/showExcel
+                ,plan/addIndexPlanAPI
+                ,plan/niffler
+                ,plan/updateIndexPlan
+                ,plan/isPlanExists
+                ,/index/addPythonIndex
+                ,/index/readFileContent
+                ,/index/isIndexExists
+                ,/index/readJavaContent
+                ,/index/addIndex
+                ,/index/UpdIndex
+                ,index/addComputingUnitExcel
+                ,/index/addComputingUnitDistributed
+                ,/index/addComputingUnitDB
+                ,/index/addComputingUnitAPI
+                ,/index/addComputingUnitX
+                ,/index/downLoadPythonModel
+                ,/approval/stopPlan
+                ,/approval/updPlan
+                ,/index/exeUpdIndex
+                ,/plan/indexTrialOperation
+                ,/index/updComputingUnitDB
+                ,index/updComputingUnitAPI
+                ,index/addComputingUnitErp
+                ,index/updIndexLabel
+        filters:
+          - StripPrefix=0
+      # 决策引擎
+      - id: stitch
+        uri: http://localhost:8090/
+        predicates:
+          - Path=/product/add
+                 ,/product/delete
+                 ,/product/update
+                 ,/product/updateStatus
+                 ,/scene/add
+                 ,/scene/delete
+                 ,/scene/update
+                 ,/scene/updateStatus
+                 ,/model/addAct
+                 ,/model/addEndEventConfig
+                 ,/model/configModel
+                 ,/model/edit
+                 ,/model/remove
+                 ,/model/deleteMvInfo
+                 ,/deploy
+                 ,/startFlow
+                 ,/common/download
+                 ,/common/readFile
+                 ,/common/upload
+                 ,/common/uploadAndRead
+                 ,/modelTest/excelData
+                 ,/modelTest/excelImport
+                 ,/modelTest/excelTestData
+                 ,/modelTest/exportTemplate
+                 ,/modelTest/testFlowForExcel
+                 ,/modelTest/testFlowForHistory
+                 ,/model/checkModel
+                 ,/modelTest/modelTestStop
+        filters:
+          - StripPrefix=0
+      - id: provider3
+        uri: ${10013.url}
+        predicates:
+          - Path= ${10013.uri}
+        filters:
+          - StripPrefix=0
+      # Graphql数据引擎
+      - id: graphql
+        #uri: http://192.168.20.14:10015/
+        uri: http://10.255.57.113:10015/
+        predicates:
+          - Path=/graphql
+                ,/index/yaml
+                ,/flow/exportRuntime
+                ,/flow/exportTestResult
+                ,/racoon/sendFirm
+                ,/racoon/findFirm
+        filters:
+          - StripPrefix=0
+      # gridagent
+      - id: gridagent
+        #uri: http://192.168.20.10:10021/
+        uri: http://localhost:10026
+        predicates:
+          - Path=/plan/operation
+                ,/plan/trialPlan
+                ,/plan/downloadTrialPlan
+        filters:
+          - StripPrefix=1
+      - id: autho
+        uri: http://192.168.20.10:10021/
+        predicates:
+          - Path=/10021/**
+        filters:
+          - StripPrefix=0
+
+        # permission
+      - id: autho
+        uri: http://192.168.20.10:10021/
+        predicates:
+          - Path=/v2/user/get
+                ,/v2/user/info
+                ,/v2/user/find
+                ,/v2/user/list
+                ,/v2/user/save
+                ,/v2/user/update
+                ,/v2/user/updateMyInfo
+                ,/v2/user/resetPwd
+                ,/v2/user/updatePwd
+                ,/v2/user/update/info
+                ,/v2/user/remove
+                ,/v2/user/validOp
+                ,/v2/user/validUs
+                ,/v2/user/sendForPwd
+                ,/v2/user/sendForNum
+                ,/v2/user/verifyPhone
+                ,/v2/upload
+                ,/v2/role/get
+                ,/v2/role/list
+                ,/v2/role/all
+                ,/v2/role/update
+                ,/v2/role/save
+                ,/v2/role/authDataScope
+                ,/v2/role/remove
+                ,/v2/operLog/list
+                ,/v2/get
+                ,/v2/menu/perms
+                ,/v2/menu/user
+                ,/v2/menu/role
+                ,/v2/menu/list
+                ,/v2/menu/get
+                ,/v2/menu/save
+                ,/v2/menu/update
+                ,/v2/menu/remove
+                ,/v2/dept/get
+                ,/v2/dept/list
+                ,/v2/dept/save
+                ,/v2/dept/update
+                ,/v2/dept/remove
+                ,/v2/dept/role
+                ,/v2/CompanyQueryLog/list
+                ,/v2/ReportDownloadLog/list
+                ,/v2/logininfor/querylasttime
+                ,/v2/CompanyQueryLog/get
+                ,/v2/CompanyQueryLog/save
+                ,/v2/CompanyQueryLog/remove
+                ,/v2/ReportDownloadLog/get
+                ,/v2/ReportDownloadLog/save
+                ,/v2/ReportDownloadLogremove
+                ,/v2/logininfor/list
+                ,/v2/operLog/get
+        filters:
+          - StripPrefix=0
+      - id: autho
+        uri: http://192.168.20.10:10021/
+        predicates:
+          - Path=/rk/v1/spreadsheet
+                 ,/rk/v1/precredit
+                 ,/rk/v1/access
+                 ,/dc/v1/rawdoc/pdf
+        filters:
+          - StripPrefix=0
+      # autho
+      - id: autho
+        uri: http://192.168.20.10:10021/
+        predicates:
+          - Path=/rk/v1/spreadsheet
+                ,/rk/v1/precredit
+                ,/rk/v1/access
+                ,/dc/v1/rawdoc/pdf
+                ,/v2/user/info
+        filters:
+          - StripPrefix=0
+      # ris
+      - id: risk
+        uri: http://192.168.20.10:10021/
+        predicates:
+          - Path=/in/v1/indexes
+                ,/in/v1/getChangeName
+                ,/in/v1/getEle1Version
+                ,/credit
+        filters:
+             - StripPrefix=0
+      # asset
+      - id: asset
+        uri: http://192.168.20.10:10021/
+        predicates:
+          - Path=/tp/v1/search/byname
+                ,/tp/v1/tdscore
+                ,/tp/v1/personWithCompany
+        filters:
+          - StripPrefix=0
+      - id: 1011
+        uri: http://localhost:1011/
+        predicates:
+          - Path=/hello
+        filters:
+          - StripPrefix=0
+          - name: Hystrix
+            args:
+              name: fallbackcmd
+              fallbackUri: forward:/defultFallback
+
+
+
+# hystrix 信号量隔离，3秒后自动超时
+# 请求超时或者接口不通，都会导致熔断。
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 3000
+  shareSecurityContext: true
+management:
+  endpoint:
+    gateway:
+      enabled: true # default value
+    web:
+      exposure:
+        include: gateway

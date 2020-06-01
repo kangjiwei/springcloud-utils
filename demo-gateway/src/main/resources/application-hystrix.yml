@@ -1,0 +1,27 @@
+xhpay:
+    front: hystrix
+#=============
+spring:
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+  application:
+    name: gateway_server
+  cloud:
+    gateway:
+      default-filters:
+      - name: hystrix  #熔断路由
+        args:
+          name: default
+          fallbackUri: 'forward:/defaultfallback'
+      filters:
+
+# hystrix 信号量隔离，3秒后自动超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 3000000
+  shareSecurityContext: true

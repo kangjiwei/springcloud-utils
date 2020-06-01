@@ -1,0 +1,22 @@
+server:
+  port: 10114
+spring:
+  application:
+    name: api-gateway
+  cloud:
+      gateway:
+        discovery:
+          locator:
+            enabled: true
+        default-filters:
+          routes:
+            id: my_route
+            uri: http://localhost:1011/
+            predicates:
+              - Path=/gateway/**
+            filters:
+              - StripPrefix=1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10111/eureka/

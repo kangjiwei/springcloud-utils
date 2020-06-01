@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="js/jquery.min.js"></script>
+<script>
+    function  fun(){
+        $.ajax({
+            url:"http://localhost:10000/1011/love",
+            success:function(data){
+                alert("请求成功 "+data)
+            },
+            error:function(){
+                alert("请求错误！");
+            }
+        });
+    }
+
+</script>
+<body>
+   <button onclick="fun()">
+        Clock
+       </button>
+</body>
+</html>

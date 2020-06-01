@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="config" />
+        <module name="demo-gateway" />
+        <module name="eurake-client" />
+        <module name="eureka-ribbon" />
+        <module name="eureka-server" />
+        <module name="gateway" />
+        <module name="getaway-eureka" />
+        <module name="provider1011" />
+        <module name="provider1012" />
+        <module name="provider1013" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1011-zlrGateway" target="1.8" />
+      <module name="1011-zlrGetaway" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="demo-gateway" target="1.8" />
+      <module name="eurake-client" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-client1" target="1.8" />
+      <module name="eureka-ribbon" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="getaway-eureka" target="1.8" />
+      <module name="provider1011" target="1.8" />
+      <module name="provider1012" target="1.8" />
+      <module name="provider1013" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
