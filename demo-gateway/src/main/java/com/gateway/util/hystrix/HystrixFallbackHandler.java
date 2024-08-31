@@ -14,10 +14,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.GATEWAY_HANDLER_MAPPER_ATTR;
 import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.GATEWAY_ORIGINAL_REQUEST_URL_ATTR;
@@ -35,8 +32,10 @@ public class HystrixFallbackHandler implements HandlerFunction<ServerResponse>{
         ServerHttpResponse response = serverRequest.exchange().getResponse();
         log.info("网关--降级处理--：{}", response.getStatusCode());
 
-        Optional<Object> attribute = null;
+        Optional<Object> attribute;
         HttpMethod method = serverRequest.method();
+
+        assert method != null;
         if("POST".equals(method.toString())){
             attribute = serverRequest.attribute(GATEWAY_ORIGINAL_REQUEST_URL_ATTR);
             Optional<Object> attribute1 = serverRequest.attribute(URI_TEMPLATE_VARIABLES_ATTRIBUTE);
@@ -48,7 +47,7 @@ public class HystrixFallbackHandler implements HandlerFunction<ServerResponse>{
             attribute = serverRequest.attribute(GATEWAY_ORIGINAL_REQUEST_URL_ATTR);
             attribute.ifPresent(original-> log.info("网关--降级--Get:{}",original));
         }
-        return  ServerResponse.status(response.getStatusCode())
+        return  ServerResponse.status(Objects.requireNonNull(response.getStatusCode()))
                 .header("Content-Type","text/plain;charset=utf-8").body(BodyInserters.fromObject("服务异常"));
     }
 }
