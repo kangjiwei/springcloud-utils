@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: provider-1012 # 服务名称，用于注册到 Consul
+  cloud:
+    consul:
+      host: 192.168.31.244       # Consul 服务器的地址
+      port: 8500            # Consul 服务器的端口
+      discovery:
+        enabled: true
+        register: true
+        acl-token: 61d2a30e-f155-99ce-db17-6ed4a59ec2dc
+        service-name: provider # 服务注册名称
+        instance-id: ${spring.application.name} #实例名称（必须唯一）
+        #        port: ${server.port}
+        prefer-ip-address: true #是否使用ip注册服务
+        health-check-path: /actuator/health     # 健康检查路径
+        health-check-interval: 10s             # 健康检查间隔时间
+      config:
+        enabled: true
+        profile: ${spring.profiles.active}
+        profile-separator: "-"
+        acl-token: 61d2a30e-f155-99ce-db17-6ed4a59ec2dc
+        prefix: config
+        data-key: data
+        format: YAML

@@ -4,6 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by rongrong on 2020/4/6.
  */
@@ -11,8 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HealthController {
 
     @GetMapping("/isHealth")
-    @ResponseBody
-    public String isHealth(){
-        return "ok";
+    public Object isHealth() {
+
+        Map<String, String> respMap = new HashMap<>();
+        respMap.put("status", "1012-ok");
+        return respMap;
     }
 }

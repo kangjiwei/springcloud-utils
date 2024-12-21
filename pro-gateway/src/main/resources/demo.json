@@ -1,0 +1,28 @@
+{
+  "gateway-server-01": {
+    "ID": "gateway-server-01",
+    "Service": "gateway-server",
+    "Tags": [
+      "secure=false"
+    ],
+    "Meta": {},
+    "Port": 8500,
+    "Address": "192.168.31.26",
+    "TaggedAddresses": {
+      "lan_ipv4": {
+        "Address": "192.168.31.26",
+        "Port": 8500
+      },
+      "wan_ipv4": {
+        "Address": "192.168.31.26",
+        "Port": 8500
+      }
+    },
+    "Weights": {
+      "Passing": 1,
+      "Warning": 1
+    },
+    "EnableTagOverride": false,
+    "Datacenter": "dc1"
+  }
+}

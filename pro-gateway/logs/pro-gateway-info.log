@@ -1,0 +1,881 @@
+2024-12-20 11:57:28.297 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 11:57:32.021 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 11:57:32.023 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 11:57:32.023 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 11:57:32.175 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 11:57:32.355 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 11:57:32.372 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6ce26986
+2024-12-20 11:57:32.936 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 11:57:33.029 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 11:57:33.237 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 11:57:33.266 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 11:57:33.482 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 11:57:34.562 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 11:57:34.590 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 11:57:36.092 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 11:57:38.041 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 11:57:38.718 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.169 seconds (JVM running for 14.137)
+2024-12-20 11:57:53.784 [,] [http-nio-10000-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 12:00:25.862 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 12:00:25.890 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 12:00:30.994 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:00:34.741 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:00:34.743 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:00:34.743 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:00:34.901 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:00:35.068 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:00:35.084 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2a99ca99
+2024-12-20 12:00:35.827 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:00:35.913 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:00:36.122 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:00:36.179 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:00:36.291 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:00:37.435 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:00:37.463 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:00:38.918 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:00:40.923 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:00:41.623 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.499 seconds (JVM running for 14.425)
+2024-12-20 12:01:48.950 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 12:07:44.985 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:07:49.399 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:07:49.403 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:07:49.404 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:07:49.637 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:07:49.909 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:07:49.931 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@58f50dd0
+2024-12-20 12:07:50.427 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:07:50.519 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:07:50.772 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:07:50.807 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:07:50.952 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:07:52.053 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:07:52.092 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:07:53.921 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:07:56.135 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:07:56.845 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 15.099 seconds (JVM running for 16.343)
+2024-12-20 12:07:59.951 [,] [http-nio-10000-exec-6] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 12:32:30.054 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:32:34.511 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:32:34.513 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:32:34.513 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:32:34.686 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:32:34.889 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:32:34.910 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c7f9861
+2024-12-20 12:32:35.617 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:32:35.737 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:32:35.960 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:32:35.984 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:32:36.142 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:32:37.273 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:32:37.301 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:32:38.982 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:32:41.104 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:32:41.832 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 15.119 seconds (JVM running for 16.14)
+2024-12-20 12:33:28.446 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 12:40:01.355 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 12:40:01.399 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 12:41:07.201 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:41:10.950 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:41:10.954 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:41:10.954 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:41:11.178 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:41:11.405 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:41:11.424 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3a36cd5
+2024-12-20 12:41:11.990 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:41:12.076 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:41:12.319 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:41:12.368 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:41:12.496 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:41:14.077 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:41:14.100 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:41:15.940 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:41:17.713 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:41:18.282 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.841 seconds (JVM running for 13.818)
+2024-12-20 12:41:34.755 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 12:42:19.327 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 12:42:19.354 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 12:42:23.430 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:42:27.359 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:42:27.363 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:42:27.364 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:42:27.575 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:42:27.797 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:42:27.815 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@52ea0269
+2024-12-20 12:42:28.593 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:42:28.790 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:42:29.093 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:42:29.190 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:42:29.297 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:42:30.578 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:42:30.606 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:42:32.681 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:42:34.391 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:42:34.975 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.22 seconds (JVM running for 14.186)
+2024-12-20 12:42:42.471 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 12:43:57.615 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 12:43:57.653 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 12:44:01.129 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:44:04.743 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:44:04.747 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:44:04.747 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:44:04.897 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:44:05.085 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:44:05.109 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3becc950
+2024-12-20 12:44:05.706 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:44:05.809 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:44:06.053 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:44:06.101 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:44:06.214 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:44:07.457 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:44:07.492 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:44:09.577 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:44:11.166 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:44:11.754 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.418 seconds (JVM running for 13.416)
+2024-12-20 12:45:21.477 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 12:45:21.506 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 12:45:25.216 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 12:45:29.099 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:45:29.103 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 12:45:29.103 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 12:45:29.318 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 12:45:29.567 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:45:29.588 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1a01d7f0
+2024-12-20 12:45:30.238 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 12:45:30.325 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 12:45:30.620 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 12:45:30.632 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 12:45:30.825 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 12:45:32.632 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 12:45:32.656 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 12:45:34.654 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 12:45:36.385 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 12:45:37.088 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.727 seconds (JVM running for 14.794)
+2024-12-20 12:45:43.062 [,] [http-nio-10000-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:01:53.797 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:01:53.835 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:02:04.189 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:02:08.043 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:02:08.047 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:02:08.047 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:02:08.256 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:02:08.513 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:02:08.600 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3becc950
+2024-12-20 13:02:09.378 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:02:09.463 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:02:09.703 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:02:09.775 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:02:09.908 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:02:11.469 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:02:11.498 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:02:13.554 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:02:15.235 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:02:15.948 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.376 seconds (JVM running for 14.248)
+2024-12-20 13:02:40.229 [,] [http-nio-10000-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:03:56.320 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:03:59.908 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:03:59.912 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:03:59.912 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:04:00.095 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:04:00.310 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:04:00.327 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@746c411c
+2024-12-20 13:04:00.869 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:04:00.946 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:04:01.170 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:04:01.232 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:04:01.362 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:04:02.908 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:04:02.940 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:04:05.517 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:04:07.449 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:04:08.077 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.423 seconds (JVM running for 14.301)
+2024-12-20 13:04:37.428 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:06:02.154 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:06:05.937 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:06:05.941 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:06:05.941 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:06:06.157 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:06:06.376 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:06:06.394 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7185e611
+2024-12-20 13:06:06.900 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:06:06.986 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:06:07.189 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:06:07.258 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:06:07.527 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:06:09.074 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:06:09.115 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:06:10.886 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:06:12.686 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:06:13.386 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 13.059 seconds (JVM running for 14.067)
+2024-12-20 13:06:19.623 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:06:46.383 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:06:46.420 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:06:51.788 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:06:55.327 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:06:55.331 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:06:55.332 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:06:55.538 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:06:55.741 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:06:55.758 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@61db86bf
+2024-12-20 13:06:56.272 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:06:56.357 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:06:56.596 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:06:56.635 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:06:56.736 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:06:58.044 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:06:58.072 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:07:00.173 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:07:01.810 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:07:02.404 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.334 seconds (JVM running for 13.229)
+2024-12-20 13:08:33.177 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:08:33.216 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:08:37.128 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:08:40.651 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:08:40.655 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:08:40.655 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:08:40.820 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:08:41.068 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:08:41.089 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@32d418a9
+2024-12-20 13:08:41.676 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:08:41.754 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:08:41.999 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:08:42.052 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:08:42.169 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:08:43.572 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:08:43.592 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:08:44.925 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:08:44.926 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:08:44.926 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:08:44.926 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:08:44.926 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:08:44.927 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:08:44.927 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:08:44.927 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:08:44.927 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:08:44.928 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:08:44.928 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:08:44.928 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:08:44.928 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:08:45.647 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:08:47.035 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:08:47.610 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.165 seconds (JVM running for 13.082)
+2024-12-20 13:09:24.737 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:12:32.671 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:12:32.700 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:12:36.019 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:12:39.651 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:12:39.654 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:12:39.654 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:12:39.848 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:12:40.106 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:12:40.125 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3e377967
+2024-12-20 13:12:40.739 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:12:40.846 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:12:41.138 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:12:41.235 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:12:41.429 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:12:42.842 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:12:42.868 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:12:44.177 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:12:44.179 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:12:44.180 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:12:44.182 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:12:44.182 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:12:44.183 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:12:44.183 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:12:44.963 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:12:46.521 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:12:47.113 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.701 seconds (JVM running for 13.63)
+2024-12-20 13:12:54.692 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:13:18.118 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:13:18.147 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:13:21.601 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:13:25.193 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:13:25.195 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:13:25.196 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:13:25.353 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:13:25.513 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:13:25.529 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@61db86bf
+2024-12-20 13:13:26.077 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:13:26.175 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:13:26.381 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:13:26.474 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:13:26.551 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:13:27.998 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:13:28.019 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:13:29.332 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:13:29.333 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:13:29.333 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:13:29.333 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:13:29.333 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:13:29.333 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:13:29.334 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:13:29.334 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:13:29.334 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:13:29.334 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:13:29.334 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:13:29.335 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:13:29.335 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:13:30.046 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:13:31.774 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:13:32.415 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.561 seconds (JVM running for 13.557)
+2024-12-20 13:13:42.914 [,] [http-nio-10000-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20 13:18:28.866 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:18:28.900 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:18:32.236 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:18:35.835 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:18:35.838 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-12-20 13:18:35.838 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-12-20 13:18:36.008 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-12-20 13:18:36.271 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:18:36.290 [,] [main] INFO  c.n.c.DynamicPropertyFactory - [getInstance,281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5856dbe4
+2024-12-20 13:18:36.890 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:18:36.975 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:18:37.203 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:18:37.234 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:18:37.432 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:18:38.922 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:18:38.942 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:18:39.737 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:18:39.739 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:18:39.739 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:18:39.739 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:18:39.739 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:18:39.740 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:18:39.740 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:18:39.740 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:18:39.740 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:18:39.740 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:18:39.740 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:18:39.741 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:18:39.741 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:18:40.745 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:18:42.276 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-10000"]
+2024-12-20 13:18:42.857 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.354 seconds (JVM running for 13.276)
+2024-12-20 13:19:09.488 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:19:09.519 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:19:20.034 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:19:23.226 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:19:23.327 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:19:23.584 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:19:23.750 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:19:23.959 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:19:23.972 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:19:25.211 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:19:25.241 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:19:26.041 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:19:26.043 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:19:26.043 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:19:26.043 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:19:26.043 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:19:26.205 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:19:26.209 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:19:26.209 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:19:26.209 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:19:26.210 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:19:26.210 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:19:26.210 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:19:26.211 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:19:27.247 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:19:29.360 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 10.967 seconds (JVM running for 11.812)
+2024-12-20 13:19:41.626 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:19:41.627 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-1
+2024-12-20 13:19:41.628 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:19:41.628 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:19:41.629 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:19:41.629 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:19:41.648 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:19:41.649 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-1
+2024-12-20 13:19:41.664 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:19:41.665 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:19:41.665 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:25.370 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:20:25.371 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-2
+2024-12-20 13:20:25.371 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:20:25.372 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:20:25.372 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:20:25.372 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:20:25.374 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:20:25.375 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-2
+2024-12-20 13:20:25.375 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:20:25.376 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:20:25.376 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:25.692 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:20:25.694 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-2
+2024-12-20 13:20:25.695 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:20:25.695 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:20:25.695 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:25.701 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:1011-ok
+2024-12-20 13:20:25.703 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 13:20:27.327 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:20:27.328 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-3
+2024-12-20 13:20:27.328 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:20:27.328 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:20:27.328 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:20:27.329 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:20:27.332 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:20:27.333 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-3
+2024-12-20 13:20:27.335 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:20:27.335 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:20:27.335 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:27.358 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:20:27.360 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-3
+2024-12-20 13:20:27.361 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:20:27.362 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:20:27.362 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:27.363 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:1011-ok
+2024-12-20 13:20:27.363 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 13:20:41.652 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:20:41.660 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-4
+2024-12-20 13:20:41.662 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:20:41.662 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:20:41.662 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:20:41.662 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:20:41.663 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:20:41.663 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-4
+2024-12-20 13:20:41.664 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:20:41.664 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:20:41.664 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:41.677 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:20:41.681 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-4
+2024-12-20 13:20:41.681 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:20:41.681 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:20:41.681 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:20:41.682 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:1011-ok
+2024-12-20 13:20:41.682 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 13:22:09.843 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:22:09.845 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-5
+2024-12-20 13:22:09.847 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:22:09.847 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:22:09.848 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:22:09.848 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:22:09.850 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:22:09.851 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-5
+2024-12-20 13:22:09.851 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:22:09.852 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:22:09.852 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:22:09.889 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:22:09.891 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-5
+2024-12-20 13:22:09.891 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:22:09.891 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:22:09.891 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:22:09.893 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:1011-ok
+2024-12-20 13:22:09.893 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 13:22:11.300 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:22:11.301 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-6
+2024-12-20 13:22:11.301 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:22:11.301 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:22:11.301 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:22:11.301 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:22:11.302 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:22:11.303 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-6
+2024-12-20 13:22:11.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:22:11.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:22:11.304 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:22:11.318 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:22:11.318 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-6
+2024-12-20 13:22:11.319 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:22:11.319 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:22:11.319 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:22:11.319 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:1011-ok
+2024-12-20 13:22:11.319 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 13:22:12.135 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:22:12.136 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0410b0f5-7
+2024-12-20 13:22:12.137 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:22:12.137 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:22:12.137 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:22:12.137 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:22:12.139 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:22:12.140 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-7
+2024-12-20 13:22:12.140 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:22:12.141 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:22:12.141 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:22:12.160 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:22:12.161 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0410b0f5-7
+2024-12-20 13:22:12.161 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 13:22:12.161 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 13:22:12.161 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 13:22:12.162 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:1011-ok
+2024-12-20 13:22:12.163 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 13:48:28.645 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:48:28.687 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:48:41.660 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:48:45.397 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:48:45.520 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:48:45.741 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:48:45.927 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:48:46.213 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:48:46.219 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:48:47.503 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:48:47.536 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:48:48.718 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:48:48.721 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:48:48.721 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:48:48.723 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:48:48.723 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:48:48.723 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:48:48.723 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:48:48.724 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:48:48.724 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:48:48.724 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:48:48.724 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:48:48.724 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:48:48.724 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:48:49.582 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:48:51.896 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 11.914 seconds (JVM running for 12.863)
+2024-12-20 13:49:07.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:49:07.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0c8a22ad-1
+2024-12-20 13:49:07.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:49:07.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:49:07.562 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:49:07.563 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:49:07.576 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:49:07.577 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0c8a22ad-1
+2024-12-20 13:49:09.539 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:49:09.540 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:0c8a22ad-2
+2024-12-20 13:49:09.540 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:49:09.541 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:49:09.541 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:49:09.542 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:49:09.544 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:49:09.545 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:0c8a22ad-2
+2024-12-20 13:51:18.906 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 13:51:18.955 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 13:51:25.228 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 13:51:28.890 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 13:51:29.024 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 13:51:29.327 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 13:51:29.483 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 13:51:29.757 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:51:29.766 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 13:51:30.880 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 13:51:30.907 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 13:51:32.272 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 13:51:32.274 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 13:51:32.275 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 13:51:32.856 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 13:51:35.269 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 11.772 seconds (JVM running for 12.868)
+2024-12-20 13:52:39.346 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 13:52:39.348 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:aa257f8b-3
+2024-12-20 13:52:39.349 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 13:52:39.349 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 13:52:39.349 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 13:52:39.349 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 13:52:39.371 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 13:52:39.371 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:aa257f8b-3
+2024-12-20 14:11:50.997 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 14:11:51.037 [,] [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 14:12:06.681 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 14:12:53.784 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 14:13:53.487 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 14:14:30.103 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 14:15:12.991 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 14:15:16.906 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 14:15:16.985 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 14:15:17.178 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 14:15:17.297 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 14:15:17.897 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 14:15:17.922 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 14:15:19.279 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 14:15:19.318 [,] [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-12-20 14:15:19.391 [,] [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-12-20 14:16:06.761 [,] [main] INFO  c.g.ProGatewayApplication - [logStartupProfileInfo,655] - The following profiles are active: api,db
+2024-12-20 14:16:10.358 [,] [task-1] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-20 14:16:10.451 [,] [task-1] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-12-20 14:16:10.673 [,] [task-1] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-12-20 14:16:10.710 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 14:16:10.717 [,] [main] INFO  c.n.c.s.URLConfigurationSource - [<init>,122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-12-20 14:16:10.929 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-12-20 14:16:12.035 [,] [task-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-12-20 14:16:12.070 [,] [task-1] INFO  o.h.dialect.Dialect - [<init>,172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-12-20 14:16:13.185 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [After]
+2024-12-20 14:16:13.189 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Before]
+2024-12-20 14:16:13.189 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Between]
+2024-12-20 14:16:13.189 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Cookie]
+2024-12-20 14:16:13.190 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Header]
+2024-12-20 14:16:13.192 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Host]
+2024-12-20 14:16:13.192 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Method]
+2024-12-20 14:16:13.192 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Path]
+2024-12-20 14:16:13.192 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Query]
+2024-12-20 14:16:13.192 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [ReadBody]
+2024-12-20 14:16:13.193 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-20 14:16:13.193 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [Weight]
+2024-12-20 14:16:13.193 [,] [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - [lambda$initFactories$2,139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-20 14:16:13.884 [,] [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-20 14:16:16.365 [,] [main] INFO  c.g.ProGatewayApplication - [logStarted,61] - Started ProGatewayApplication in 12.752 seconds (JVM running for 13.744)
+2024-12-20 14:16:36.673 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:16:36.674 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-1
+2024-12-20 14:16:36.675 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:16:36.675 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:16:36.677 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:16:36.677 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:16:36.689 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:36.689 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-1
+2024-12-20 14:16:37.163 [,] [boundedElastic-1] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:37.164 [,] [boundedElastic-1] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:37.164 [,] [boundedElastic-1] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:37.423 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:37.426 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-1
+2024-12-20 14:16:37.430 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:37.430 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:37.430 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:37.437 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1012-ok"}
+2024-12-20 14:16:37.438 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:16:37.508 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:16:37.509 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]
+2024-12-20 14:16:39.603 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:16:39.603 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-2
+2024-12-20 14:16:39.603 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:16:39.604 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:16:39.604 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:16:39.604 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:16:39.607 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:39.607 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-2
+2024-12-20 14:16:39.609 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:39.609 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:39.609 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:56.579 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:16:56.580 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-3
+2024-12-20 14:16:56.581 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:16:56.581 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:16:56.582 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:16:56.582 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:16:56.586 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:56.588 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-3
+2024-12-20 14:16:56.589 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:56.591 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:56.591 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:57.446 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:16:57.448 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-4
+2024-12-20 14:16:57.448 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:16:57.449 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:16:57.449 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:16:57.450 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:16:57.454 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:57.455 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-4
+2024-12-20 14:16:57.455 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:57.455 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:57.456 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:58.343 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:16:58.344 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-5
+2024-12-20 14:16:58.344 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:16:58.344 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:16:58.344 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:16:58.345 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:16:58.345 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:58.346 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-5
+2024-12-20 14:16:58.348 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:58.348 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:58.348 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:58.557 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:58.557 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-5
+2024-12-20 14:16:58.558 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:58.559 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:58.560 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:58.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1011-ok"}
+2024-12-20 14:16:58.561 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:16:58.562 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:16:58.562 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:58 GMT"];responseResult={"status":"1011-ok"} ]
+2024-12-20 14:16:59.569 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:16:59.570 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-6
+2024-12-20 14:16:59.572 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:16:59.572 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:16:59.572 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:16:59.573 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:16:59.573 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:59.573 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-6
+2024-12-20 14:16:59.574 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:59.575 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:59.575 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:59.590 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:16:59.591 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-6
+2024-12-20 14:16:59.591 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:16:59.591 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:16:59.592 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:16:59.592 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1012-ok"}
+2024-12-20 14:16:59.593 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:16:59.594 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:16:59.594 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:58 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:59 GMT"];responseResult={"status":"1012-ok"} ]
+2024-12-20 14:17:00.383 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:00.383 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-7
+2024-12-20 14:17:00.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:00.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:00.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:00.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:00.386 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:00.387 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-7
+2024-12-20 14:17:00.388 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:00.388 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:00.388 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:01.330 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:01.330 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-8
+2024-12-20 14:17:01.330 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:01.330 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:01.331 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:01.331 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:01.333 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:01.333 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-8
+2024-12-20 14:17:01.334 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:01.334 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:01.334 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:02.000 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:02.001 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-9
+2024-12-20 14:17:02.001 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:02.001 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:02.001 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:02.001 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:02.002 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:02.002 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-9
+2024-12-20 14:17:02.002 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:02.003 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:02.003 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:02.857 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:02.858 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-10
+2024-12-20 14:17:02.859 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:02.860 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:02.860 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:02.860 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:02.862 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:02.865 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-10
+2024-12-20 14:17:02.868 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:02.869 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:02.869 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:02.895 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:02.896 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-10
+2024-12-20 14:17:02.896 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:02.896 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:02.896 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:02.897 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1011-ok"}
+2024-12-20 14:17:02.897 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:17:02.897 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:17:02.897 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:58 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:59 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:02 GMT"];responseResult={"status":"1011-ok"} ]
+2024-12-20 14:17:03.774 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:03.775 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-11
+2024-12-20 14:17:03.775 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:03.775 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:03.775 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:03.775 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:03.776 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:03.777 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-11
+2024-12-20 14:17:03.778 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:03.778 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:03.779 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:03.790 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:03.793 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-11
+2024-12-20 14:17:03.794 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:03.794 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:03.794 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:03.795 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1012-ok"}
+2024-12-20 14:17:03.795 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:17:03.797 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:17:03.797 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:58 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:59 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:02 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:03 GMT"];responseResult={"status":"1012-ok"} ]
+2024-12-20 14:17:04.649 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:04.650 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-12
+2024-12-20 14:17:04.650 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:04.650 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:04.650 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:04.650 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:04.651 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:04.651 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-12
+2024-12-20 14:17:04.652 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:04.652 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:04.652 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:05.379 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:05.380 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-13
+2024-12-20 14:17:05.380 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:05.381 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:05.381 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:05.381 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:05.382 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:05.383 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-13
+2024-12-20 14:17:05.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:05.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:05.384 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:06.129 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:06.130 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-14
+2024-12-20 14:17:06.131 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:06.131 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:06.132 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:06.132 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:06.133 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:06.134 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-14
+2024-12-20 14:17:06.136 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:06.137 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:06.138 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:06.904 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:06.904 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-15
+2024-12-20 14:17:06.904 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:06.905 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:06.905 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:06.905 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:06.905 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:06.905 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-15
+2024-12-20 14:17:06.906 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:06.906 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:06.906 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:06.912 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:06.912 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-15
+2024-12-20 14:17:06.912 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:06.913 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:06.913 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:06.914 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1011-ok"}
+2024-12-20 14:17:06.914 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:17:06.914 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:17:06.914 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:58 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:59 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:02 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:03 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:06 GMT"];responseResult={"status":"1011-ok"} ]
+2024-12-20 14:17:07.818 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:07.819 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-16
+2024-12-20 14:17:07.820 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:07.820 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:07.821 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:07.821 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:07.822 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:07.823 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-16
+2024-12-20 14:17:07.824 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:07.824 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:07.824 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:07.835 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:07.836 [,] [reactor-http-nio-4] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-16
+2024-12-20 14:17:07.836 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:07.836 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:07.837 [,] [reactor-http-nio-4] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:17:07.837 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,94] - RequestBody:{"status":"1012-ok"}
+2024-12-20 14:17:07.837 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,95] - RequstStatus:OK
+2024-12-20 14:17:07.837 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,100] - Gateway-response-响应时间:null
+2024-12-20 14:17:07.837 [,] [reactor-http-nio-4] INFO  c.g.u.f.LogResponseGlobalFilter - [lambda$writeWith$0,102] -  让人想哭:Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:36 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:58 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:16:59 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:02 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:03 GMT"];responseResult={"status":"1012-ok"} ]Response Info [ Response Info [ Response Info [ Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:06 GMT"];responseResult={"status":"1011-ok"} ]Response Info [ status=200 OK;header=[transfer-encoding:"chunked", Content-Type:"application/json", Date:"Fri, 20 Dec 2024 06:17:06 GMT"];responseResult={"status":"1012-ok"} ]
+2024-12-20 14:17:08.616 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:17:08.616 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-17
+2024-12-20 14:17:08.616 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:17:08.617 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:17:08.617 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:17:08.617 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:17:08.618 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:17:08.619 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-17
+2024-12-20 14:17:08.620 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:17:08.621 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:17:08.621 [,] [reactor-http-nio-3] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
+2024-12-20 14:19:15.263 [,] [reactor-http-nio-3] INFO  c.g.u.f.PostFilter - [filter,23] - Response -20:200 OK
+2024-12-20 14:19:15.264 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,49] - RequestId:d8eff8f9-18
+2024-12-20 14:19:15.264 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,50] - method:GET
+2024-12-20 14:19:15.265 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,51] - contentType:application/json
+2024-12-20 14:19:15.265 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,52] - RequestTime:{}
+2024-12-20 14:19:15.265 [,] [reactor-http-nio-3] INFO  c.g.u.f.LogResponseGlobalFilter - [filter,53] - RequestParams:{}
+2024-12-20 14:19:15.268 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,25] - Response 20:200 OK
+2024-12-20 14:19:15.268 [,] [reactor-http-nio-3] INFO  c.g.u.f.PreFilter - [filter,26] - 网关--pre--RequestId:d8eff8f9-18
+2024-12-20 14:19:15.330 [,] [boundedElastic-2] INFO  c.g.u.f.PowerCheckFilter - [filter,62] - 网关--request-Path:/isHealth
+2024-12-20 14:19:15.331 [,] [boundedElastic-2] INFO  c.g.u.f.PowerCheckFilter - [filter,63] - 网关--response-code:200 OK
+2024-12-20 14:19:15.331 [,] [boundedElastic-2] INFO  c.g.u.f.PowerCheckFilter - [filter,67] - GET
