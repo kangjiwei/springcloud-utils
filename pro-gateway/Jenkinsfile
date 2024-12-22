@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+    tools {
+        maven 'maven3.3.9'
+    }
+    environment {
+         DOCKER_BUILDKIT = "1"
+         DOCKER_REGISTRY='192.168.31.244:5000'
+         DOCKER_IMAGE="${DOCKER_REGISTRY}/102-pro-gateway:1.0"
+         project_url ="http://192.168.31.244:30081/kangjiwei/102-pro-gateway.git"
+
+    }
+
+    stages {
+        stage('拉取代码') {
+            steps {
+                git credentialsId: 'private-gitlab', url: '${project_url}', branch: 'dev'
+            }
+        }
+
+        stage('编译') {
+            steps {
+                sh 'mvn clean package -Dmaven.test.skip=true'
+            }
+        }
+
+        stage('构建镜像') {
+            steps {
+                script {
+                    sh "/home/jenkins/.docker/cli-plugins/docker-buildx build -t ${DOCKER_IMAGE} ."
+                }
+            }
+        }
+
+        stage('推送镜像') {
+            steps {
+                script {
+                    sh 'docker push ${DOCKER_IMAGE}'
+                }
+            }
+        }
+
+    }
+}
