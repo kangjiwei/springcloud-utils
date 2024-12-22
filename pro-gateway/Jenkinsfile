@@ -8,13 +8,12 @@ pipeline {
          DOCKER_REGISTRY='192.168.31.244:5000'
          DOCKER_IMAGE="${DOCKER_REGISTRY}/102-pro-gateway:1.0"
          project_url ="http://192.168.31.244:30081/kangjiwei/102-pro-gateway.git"
-
     }
 
     stages {
         stage('拉取代码') {
             steps {
-                git credentialsId: 'private-gitlab', url: '${project_url}', branch: 'dev'
+                git credentialsId: 'c557da21-9e8c-419c-8043-17390cc8fa0d', url: ${project_url}, branch: 'dev'
             }
         }
 
